@@ -1,0 +1,37 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SIK = {
+				SIK_sheng_shicai = {
+					add_corps_commander_role = {
+						traits = {
+							politically_connected
+						}
+						skill = 2
+						attack_skill = 2
+						defense_skill = 3
+						planning_skill = 2
+						logistics_skill = 2
+						legacy_id = -1
+					}
+				}
+				SIK_yol_bars = {
+					set_portraits = {
+						army = {
+							large = GFX_portrait_YaoLeBoSi
+							small = GFX_portrait_YaoLeBoSi_small
+						}
+					}
+					add_corps_commander_role = {
+						skill = 1
+						attack_skill = 1
+						defense_skill = 1
+						planning_skill = 1
+						logistics_skill = 1
+						legacy_id = -1
+					}
+				}
+			}
+		}
+	}
+}

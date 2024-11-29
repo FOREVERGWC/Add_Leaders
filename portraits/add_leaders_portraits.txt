@@ -1,0 +1,9 @@
+# continent = {
+# 	name = asia
+# 	army = {
+# 		male = {
+# 			"GFX_Portrait_Asia_Generic_land_666"
+# 			"GFX_Portrait_Asia_Generic_land_667"
+# 		}
+# 	}
+# }

@@ -1,0 +1,258 @@
+characters = {
+	MAN_Ji_Xing = {
+		name = MAN_Ji_Xing
+		portraits = {
+			army = {
+				large = GFX_portrait_Ji_Xing
+				small = GFX_portrait_Ji_Xing_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MAN_Xing_ShiLian = {
+		name = MAN_Xing_ShiLian
+		portraits = {
+			army = {
+				large = GFX_portrait_Xing_ShiLian
+				small = GFX_portrait_Xing_ShiLian_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MAN_Yu_ChenCheng = {
+		name = MAN_Yu_ChenCheng
+		portraits = {
+			army = {
+				large = GFX_portrait_Yu_ChenCheng
+				small = GFX_portrait_Yu_ChenCheng_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAN_Yu_ChenCheng
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_cavalry_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Yu_ZhiShan = {
+		name = MAN_Yu_ZhiShan
+		portraits = {
+			army = {
+				large = GFX_portrait_Yu_ZhiShan
+				small = GFX_portrait_Yu_ZhiShan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MAN_Lin_Qi = {
+		name = MAN_Lin_Qi
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Lin_Qi_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Lin_Qi
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				silent_workhorse
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Rokusashi_Takebe = {
+		name = MAN_Rokusashi_Takebe
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Rokusashi_Takebe_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Rokusashi_Takebe
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				captain_of_industry
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Naoki_Hoshino = {
+		name = MAN_Naoki_Hoshino
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Naoki_Hoshino_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Naoki_Hoshino
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				financial_expert
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Yu_JingTao = {
+		name = MAN_Yu_JingTao
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Yu_JingTao_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Yu_JingTao
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				prince_of_terror
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Zang_ShiYi = {
+		name = MAN_Zang_ShiYi
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Zang_ShiYi_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Zang_ShiYi
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				compassionate_gentleman
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Zhao_XinBo = {
+		name = MAN_Zhao_XinBo
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Zhao_XinBo_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Zhao_XinBo
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				backroom_backstabber
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Cheng_ZhiYuan = {
+		name = MAN_Cheng_ZhiYuan
+		portraits = {
+			army = {
+				large = GFX_portrait_Cheng_ZhiYuan
+				small = GFX_portrait_Cheng_ZhiYuan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	MAN_Wang_ZhiYou = {
+		name = MAN_Wang_ZhiYou
+		portraits = {
+			army = {
+				large = GFX_portrait_Wang_ZhiYou
+				small = GFX_portrait_Wang_ZhiYou_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+}

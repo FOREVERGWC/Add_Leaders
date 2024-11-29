@@ -1,0 +1,112 @@
+PRC_plus_category = {
+	PRC_form_PLAN = {
+		icon = generic_army_support
+		allowed = {
+			original_tag = PRC
+		}
+		available = {
+			NOT = {
+				has_country_flag = PRC_form_PLAN
+			}
+			any_owned_state = {
+				dockyard > 0
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = PRC_form_PLAN
+			PRC_ziao_jingguang = {
+				remove_unit_leader_role = yes
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Xiao_JinGuang2
+						small = GFX_portrait_Xiao_JinGuang2_small
+					}
+				}
+				add_naval_commander_role = {
+					character = PRC_ziao_jingguang
+					traits = {
+						spotter
+					}
+					skill = 3
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 3
+				}
+			}
+			effect_tooltip = {
+				add_naval_commander_role = {
+					character = PRC_Zhou_XiHan
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					maneuvering_skill = 1
+					coordination_skill = 1
+				}
+				add_naval_commander_role = {
+					character = PRC_Zeng_KeLin
+					traits = {
+						aviation_enthusiast
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					maneuvering_skill = 1
+					coordination_skill = 1
+				}
+				add_naval_commander_role = {
+					character = PRC_Huang_ZhongCheng
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					maneuvering_skill = 1
+					coordination_skill = 1
+				}
+				add_naval_commander_role = {
+					character = PRC_Ma_ZhongQuan
+					traits = {
+						spotter
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					maneuvering_skill = 1
+					coordination_skill = 1
+				}
+				add_naval_commander_role = {
+					character = PRC_Liu_HuaQing
+					traits = {
+						aviation_enthusiast
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					maneuvering_skill = 1
+					coordination_skill = 1
+				}
+				add_naval_commander_role = {
+					character = PRC_Liu_ChangYi
+					traits = {
+						bold
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					maneuvering_skill = 1
+					coordination_skill = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				has_navy_size = {
+					size > 1
+				}
+			}
+		}
+	}
+}

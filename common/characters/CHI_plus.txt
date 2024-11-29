@@ -1,0 +1,611 @@
+characters = {
+	CHI_Shen_HongLie = {
+		name = CHI_Shen_HongLie
+		portraits = {
+			army = {
+				large = GFX_portrait_Shen_HongLie
+				small = GFX_portrait_Shen_HongLie_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				green_water_expert
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Zhang_ZiZhong = {
+		name = CHI_Zhang_ZiZhong
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhang_ZiZhong
+				small = GFX_portrait_Zhang_ZiZhong_small
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	CHI_Chen_Ce = {
+		name = CHI_Chen_Ce
+		portraits = {
+			army = {
+				large = GFX_portrait_Chen_Ce
+				small = GFX_portrait_Chen_Ce_small
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Deng_ZhaoXiang = {
+		name = CHI_Deng_ZhaoXiang
+		portraits = {
+			army = {
+				large = GFX_portrait_Deng_ZhaoXiang
+				small = GFX_portrait_Deng_ZhaoXiang_small
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Sa_ZhenBing = {
+		name = CHI_Sa_ZhenBing
+		portraits = {
+			army = {
+				large = GFX_portrait_Sa_ZhenBing
+				small = GFX_portrait_Sa_ZhenBing_small
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Chen_JiLiang = {
+		name = CHI_Chen_JiLiang
+		portraits = {
+			army = {
+				large = GFX_portrait_Chen_JiLiang
+				small = GFX_portrait_Chen_JiLiang_small
+			}
+		}
+		navy_leader = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Ma_Lu = {
+		name = CHI_Ma_Lu
+		portraits = {
+			army = {
+				large = GFX_portrait_Ma_Lu
+				small = GFX_portrait_Ma_Lu_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Ma_Biao = {
+		name = CHI_Ma_Biao
+		portraits = {
+			army = {
+				large = GFX_portrait_Ma_Biao
+				small = GFX_portrait_Ma_Biao_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Sun_Du = {
+		name = CHI_Sun_Du
+		portraits = {
+			army = {
+				large = GFX_portrait_Sun_Du
+				small = GFX_portrait_Sun_Du_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Zhang_Chong = {
+		name = CHI_Zhang_Chong
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhang_Chong
+				small = GFX_portrait_Zhang_Chong_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_An_EnPu = {
+		name = CHI_An_EnPu
+		portraits = {
+			army = {
+				large = GFX_portrait_An_EnPu
+				small = GFX_portrait_An_EnPu_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Sun_Chu = {
+		name = CHI_Sun_Chu
+		portraits = {
+			army = {
+				large = GFX_portrait_Sun_Chu
+				small = GFX_portrait_Sun_Chu_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Wang_JiaBen = {
+		name = CHI_Wang_JiaBen
+		portraits = {
+			army = {
+				large = GFX_portrait_Wang_JiaBen
+				small = GFX_portrait_Wang_JiaBen_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Yang_AiYuan = {
+		name = CHI_Yang_AiYuan
+		portraits = {
+			army = {
+				large = GFX_portrait_Yang_AiYuan
+				small = GFX_portrait_Yang_AiYuan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Zhao_ChengShou = {
+		name = CHI_Zhao_ChengShou
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhao_ChengShou
+				small = GFX_portrait_Zhao_ChengShou_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_leader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Chu_XiChun = {
+		name = CHI_Chu_XiChun
+		portraits = {
+			army = {
+				large = GFX_portrait_Chu_XiChun
+				small = GFX_portrait_Chu_XiChun_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Yang_ChengYuan = {
+		name = CHI_Yang_ChengYuan
+		portraits = {
+			army = {
+				large = GFX_portrait_Yang_ChengYuan
+				small = GFX_portrait_Yang_ChengYuan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Jiang_GuangNai = {
+		name = CHI_Jiang_GuangNai
+		portraits = {
+			army = {
+				large = GFX_portrait_Jiang_GuangNai
+				small = GFX_portrait_Jiang_GuangNai_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				cavalry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Cheng_Qian = {
+		name = CHI_Cheng_Qian
+		portraits = {
+			army = {
+				large = GFX_portrait_Cheng_Qian
+				small = GFX_portrait_Cheng_Qian_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				skilled_staffer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Zhang_FaKui = {
+		name = CHI_Zhang_FaKui
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhang_FaKui
+				small = GFX_portrait_Zhang_FaKui_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Sun_LianZhong = {
+		name = CHI_Sun_LianZhong
+		portraits = {
+			army = {
+				large = GFX_portrait_Sun_LianZhong
+				small = GFX_portrait_Sun_LianZhong_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Shang_Zhen = {
+		name = CHI_Shang_Zhen
+		portraits = {
+			army = {
+				large = GFX_portrait_Shang_Zhen
+				small = GFX_portrait_Shang_Zhen_small
+			}
+			civilian = {
+				small = GFX_portrait_Shang_Zhen_2_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				harsh_leader
+				trait_engineer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Shang_Zhen
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				smooth_talking_charmer
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CHI_Shang_Zhen
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_reform_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Zhang_ZhiZhong = {
+		name = CHI_Zhang_ZhiZhong
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhang_ZhiZhong
+				small = GFX_portrait_Zhang_ZhiZhong_small
+			}
+			civilian = {
+				small = GFX_portrait_Zhang_ZhiZhong_2_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+				infantry_leader
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = CHI_Zhang_ZhiZhong
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				military_theorist
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		advisor = {
+			slot = education_reformer
+			idea_token = CHI_Zhang_ZhiZhong
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+	CHI_Luo_ZhuoYing = {
+		name = CHI_Luo_ZhuoYing
+		portraits = {
+			army = {
+				large = GFX_portrait_Luo_ZhuoYing
+				small = GFX_portrait_Luo_ZhuoYing_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+				bearer_of_artillery
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Wan_FuLin = {
+		name = CHI_Wan_FuLin
+		portraits = {
+			army = {
+				large = GFX_portrait_Wan_FuLin
+				small = GFX_portrait_Wan_FuLin_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Li_JiShen = {
+		name = CHI_Li_JiShen
+		portraits = {
+			army = {
+				large = GFX_portrait_Li_JiShen
+				small = GFX_portrait_Li_JiShen_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Hao_MengLing = {
+		# TODO 1937.10.16殉国，39剧本移除
+		name = CHI_Hao_MengLing
+		portraits = {
+			army = {
+				large = GFX_portrait_Hao_MengLing
+				small = GFX_portrait_Hao_MengLing_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Song_XiLian = {
+		name = CHI_Song_XiLian
+		portraits = {
+			army = {
+				large = GFX_portrait_Song_XiLian
+				small = GFX_portrait_Song_XiLian_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

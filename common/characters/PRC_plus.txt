@@ -1,0 +1,366 @@
+characters = {
+	PRC_He_Long_plus = {
+		name = PRC_He_Long_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_He_Long
+				small = GFX_portrait_He_Long_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	PRC_Luo_RongHuan_plus = {
+		name = PRC_Luo_RongHuan_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_Luo_RongHuan
+				small = GFX_portrait_Luo_RongHuan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				skilled_staffer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	PRC_Xu_HaiDong_plus = {
+		name = PRC_Xu_HaiDong_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_Xu_HaiDong
+				small = GFX_portrait_Xu_HaiDong_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				harsh_leader
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	PRC_Huang_KeCheng_plus = {
+		name = PRC_Huang_KeCheng_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_Huang_KeCheng
+				small = GFX_portrait_Huang_KeCheng_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	PRC_Tan_Zheng_plus = {
+		name = PRC_Tan_Zheng_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_Tan_Zheng
+				small = GFX_portrait_Tan_Zheng_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	PRC_Zhang_YunYi_plus = {
+		name = PRC_Zhang_YunYi_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhang_YunYi
+				small = GFX_portrait_Zhang_YunYi_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	PRC_Wang_ShuSheng_plus = {
+		name = PRC_Wang_ShuSheng_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_Wang_ShuSheng
+				small = GFX_portrait_Wang_ShuSheng_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	PRC_Xu_GuangDa_plus = {
+		name = PRC_Xu_GuangDa_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_Xu_GuangDa
+				small = GFX_portrait_Xu_GuangDa_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				armor_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = PRC_Xu_GuangDa_plus
+			ledger = army
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				army_armored_2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			cost = 100
+		}
+	}
+	PRC_Zuo_Quan_plus = {
+		name = PRC_Zuo_Quan_plus
+		portraits = {
+			army = {
+				large = GFX_portrait_Zuo_Quan
+				small = GFX_portrait_Zuo_Quan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+				skilled_staffer
+				hill_fighter
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	PRC_Bo_Gu = {
+		name = PRC_Bo_Gu
+		portraits = {
+			army = {
+				small = GFX_portrait_Bo_Gu_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Bo_Gu
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				communist_revolutionary
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Zhou_XiHan = {
+		name = PRC_Zhou_XiHan
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhou_XiHan
+				small = GFX_portrait_Zhou_XiHan_small
+			}
+		}
+		navy_leader = {
+			visible = {
+				has_country_flag = PRC_form_PLAN
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRC_Zeng_KeLin = {
+		name = PRC_Zeng_KeLin
+		portraits = {
+			army = {
+				large = GFX_portrait_Zeng_KeLin
+				small = GFX_portrait_Zeng_KeLin_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			cost = 50
+			idea_token = PRC_Zeng_KeLin
+			traits = {
+				air_naval_strike_2
+			}
+			allowed = {
+				original_tag = PRC
+			}
+			available = {
+				has_country_flag = PRC_form_PLAN
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			visible = {
+				has_country_flag = PRC_form_PLAN
+			}
+			traits = {
+				aviation_enthusiast
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRC_Huang_ZhongCheng = {
+		name = PRC_Huang_ZhongCheng
+		portraits = {
+			army = {
+				large = GFX_portrait_Huang_ZhongCheng
+				small = GFX_portrait_Huang_ZhongCheng_small
+			}
+		}
+		navy_leader = {
+			visible = {
+				has_country_flag = PRC_form_PLAN
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRC_Ma_ZhongQuan = {
+		name = PRC_Ma_ZhongQuan
+		portraits = {
+			army = {
+				large = GFX_portrait_Ma_ZhongQuan
+				small = GFX_portrait_Ma_ZhongQuan_small
+			}
+		}
+		navy_leader = {
+			visible = {
+				has_country_flag = PRC_form_PLAN
+			}
+			traits = {
+				spotter
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRC_Liu_HuaQing = {
+		name = PRC_Liu_HuaQing
+		portraits = {
+			army = {
+				large = GFX_portrait_Liu_HuaQing
+				small = GFX_portrait_Liu_HuaQing_small
+			}
+		}
+		navy_leader = {
+			visible = {
+				has_country_flag = PRC_form_PLAN
+			}
+			traits = {
+				aviation_enthusiast
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRC_Liu_ChangYi = {
+		name = PRC_Liu_ChangYi
+		portraits = {
+			army = {
+				large = GFX_portrait_Liu_ChangYi
+				small = GFX_portrait_Liu_ChangYi_small
+			}
+		}
+		navy_leader = {
+			visible = {
+				has_country_flag = PRC_form_PLAN
+			}
+			traits = {
+				bold
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+}

@@ -1,0 +1,108 @@
+1936.1.1 = {
+	CHI = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			retire_character = PRC_luo_ruiqing
+		}
+		# 适配原版
+		else = {
+			retire_character = CHI_kwong_jiang
+			retire_character = PRC_deng_xiaoping
+			retire_character = PRC_luo_ruiqing
+		}
+	}
+	PRC = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+		}
+		# 适配原版
+		else = {
+			retire_character = generic_communist_revolutionary
+		}
+	}
+	SHX = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			retire_character = PRC_luo_ruiqing
+		}
+		# 适配原版
+		else = {
+			retire_character = PRC_deng_xiaoping
+			retire_character = PRC_luo_ruiqing
+		}
+	}
+	XSM = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+		}
+		# 适配原版
+		else = {
+			retire_character = PRC_deng_xiaoping
+			retire_character = PRC_luo_ruiqing
+		}
+	}
+	YUN = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+		}
+		# 适配原版
+		else = {
+			retire_character = PRC_deng_xiaoping
+			retire_character = PRC_luo_ruiqing
+		}
+	}
+	GXC = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+		}
+		# 适配原版
+		else = {
+			retire_character = PRC_deng_xiaoping
+			retire_character = PRC_luo_ruiqing
+		}
+	}
+	SIK = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+		}
+		# 适配原版
+		else = {
+			retire_character = PRC_deng_xiaoping
+			retire_character = PRC_luo_ruiqing
+		}
+	}
+	MAN = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+		}
+		# 适配原版
+		else = {
+			retire_character = PRC_deng_xiaoping
+			retire_character = PRC_luo_ruiqing
+		}
+	}
+}

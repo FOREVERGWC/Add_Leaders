@@ -1,0 +1,21 @@
+characters = {
+	SOV_andrei_alexandrovich_zhdanov = {
+		name = SOV_andrei_alexandrovich_zhdanov
+		portraits = {
+			army = {
+				large = GFX_portrait_andrei_alexandrovich_zhdanov
+				small = GFX_portrait_andrei_alexandrovich_zhdanov_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SOV_andrei_alexandrovich_zhdanov
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				ecomonist_publicist
+			}
+		}
+	}
+}

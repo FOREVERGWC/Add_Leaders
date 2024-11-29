@@ -1,0 +1,1595 @@
+1936.1.1 = {
+	CHI = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			retire_character = CHI_fang_zeyi
+			retire_character = CHI_xiao_jinguang
+			CHI_chen_jitang = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Chen_JiTang_plus
+						small = GFX_portrait_Chen_JiTang_plus_small
+					}
+				}
+			}
+			CHI_bai_chongxi = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Bai_ChongXi
+						small = GFX_portrait_Bai_ChongXi_small
+					}
+				}
+			}
+			CHI_chen_shaokuan = {
+				set_portraits = {
+					army = {
+						small = GFX_portrait_Chen_ShaoKuan_small
+					}
+				}
+			}
+			CHI_wang_shuming = {
+				set_portraits = {
+					army = {
+						small = GFX_idea_CHI_wang_shuming
+					}
+				}
+			}
+			CHI_yu_hanmou = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Yu_HanMou
+						small = GFX_idea_CHI_yu_hanmou
+					}
+				}
+			}
+			CHI_zhang_zizhong = {
+				set_portraits = {
+					army = {
+						small = GFX_portrait_Zhang_ZiZhong_small
+					}
+				}
+			}
+			retire_character = CHI_xiao_yisu
+			generate_character = {
+				token_base = CHI_xiao_yisu
+				name = CHI_xiao_yisu
+				portraits = {
+					army = {
+						large = ""
+						small = ""
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = CHI_xiao_yisu
+					allowed = {
+						original_tag = CHI
+					}
+					ai_will_do = {
+						factor = 2
+					}
+					cost = 100
+					traits = {
+						army_infantry_2
+					}
+				}
+				corps_commander = {
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			recruit_character = CHI_Shen_HongLie
+			recruit_character = CHI_Deng_ZhaoXiang
+			recruit_character = CHI_Sa_ZhenBing
+			recruit_character = CHI_Chen_JiLiang
+		}
+		# 适配原版
+		else = {
+			retire_character = CHI_zhu_de
+			retire_character = CHI_fang_zeyi
+			retire_character = CHI_xiao_jinguang
+			retire_character = CHI_weng_wenhao
+			CHI_chen_jitang = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Chen_JiTang_plus
+						small = GFX_portrait_Chen_JiTang_plus_small
+					}
+				}
+			}
+			generate_character = {
+				token_base = CHI_weng_wenhao
+				name = CHI_weng_wenhao
+				portraits = {
+					civilian = {
+						large = GFX_portrait_chi_weng_wenhao
+						small = GFX_portrait_Weng_WenHao_small
+					}
+				}
+				country_leader = {
+					ideology = socialism
+					expire = "1965.1.1.1"
+					id = -1
+				}
+				advisor = {
+					idea_token = CHI_weng_wenhao
+					slot = political_advisor
+					traits = {
+						democratic_reformer
+					}
+					allowed = {
+						original_tag = CHI
+					}
+					available = {
+						has_completed_focus = CHI_legislative_yuan
+						if = {
+							limit = {
+								has_dlc = "Man the Guns"
+							}
+							NOT = {
+								has_autonomy_state = autonomy_supervised_state
+							}
+						}
+						is_country_leader = no
+					}
+				}
+			}
+			promote_character = CHI_weng_wenhao
+			retire_character = CHI_chen_shaokuan
+			generate_character = {
+				token_base = CHI_chen_shaokuan
+				name = CHI_chen_shaokuan
+				portraits = {
+					army = {
+						large = GFX_portrait_Chen_ShaoKuan
+						small = GFX_portrait_Chen_ShaoKuan_small
+					}
+				}
+				advisor = {
+					slot = navy_chief
+					idea_token = CHI_chen_shaokuan
+					allowed = {
+						original_tag = CHI
+					}
+					traits = {
+						navy_chief_decisive_battle_2
+					}
+					ai_will_do = {
+						factor = 0.2
+					}
+				}
+				navy_leader = {
+					traits = {
+						aviation_enthusiast
+						cruiser_captain
+						green_water_expert
+					}
+					skill = 2
+					attack_skill = 1
+					defense_skill = 2
+					maneuvering_skill = 3
+					coordination_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = CHI_he_yingqin
+			generate_character = {
+				token_base = CHI_he_yingqin
+				name = CHI_he_yingqin
+				portraits = {
+					army = {
+						large = GFX_portrait_He_YingQin
+						small = GFX_idea_CHI_he_yingqin
+					}
+				}
+				advisor = {
+					slot = army_chief
+					idea_token = CHI_he_yingqin
+					allowed = {
+						original_tag = CHI
+					}
+					traits = {
+						army_chief_maneuver_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = CHI_xiao_yisu
+			generate_character = {
+				token_base = CHI_xiao_yisu
+				name = CHI_xiao_yisu
+				portraits = {
+					army = {
+						large = ""
+						small = ""
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = CHI_xiao_yisu
+					ledger = army
+					allowed = {
+						original_tag = CHI
+					}
+					traits = {
+						army_infantry_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 2
+					}
+				}
+				corps_commander = {
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = CHI_chen_cheng
+			generate_character = {
+				token_base = CHI_chen_cheng
+				name = CHI_chen_cheng
+				portraits = {
+					army = {
+						large = GFX_portrait_Chen_Cheng
+						small = GFX_idea_CHI_chen_cheng
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = CHI_chen_cheng
+					ledger = army
+					allowed = {
+						original_tag = CHI
+					}
+					traits = {
+						army_regrouping_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			CHI_sun_li_jen = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Sun_LiRen
+						small = GFX_portrait_Sun_LiRen_small
+					}
+				}
+			}
+			CHI_zhang_guotao = {
+				set_portraits = {
+					civilian = {
+						large = GFX_portrait_Zhang_GuoTao
+					}
+				}
+			}
+			CHI_bai_chongxi = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Bai_ChongXi
+						small = GFX_portrait_Bai_ChongXi_small
+					}
+				}
+			}
+			recruit_character = CHI_Shen_HongLie
+			recruit_character = CHI_Zhang_ZiZhong
+			recruit_character = CHI_Chen_Ce
+			recruit_character = CHI_Deng_ZhaoXiang
+			recruit_character = CHI_Sa_ZhenBing
+			recruit_character = CHI_Chen_JiLiang
+			recruit_character = CHI_Cheng_Qian
+			recruit_character = CHI_Zhang_FaKui
+			recruit_character = CHI_Sun_LianZhong
+			recruit_character = CHI_Shang_Zhen
+			recruit_character = CHI_Zhang_ZhiZhong
+			recruit_character = CHI_Luo_ZhuoYing
+			recruit_character = CHI_Wan_FuLin
+			recruit_character = CHI_Song_XiLian
+		}
+	}
+	PRC = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			retire_character = PRC_deng_ye_peng
+			PRC_mao_zedong = {
+				remove_unit_leader_trait = politically_connected
+				add_unit_leader_trait = brilliant_strategist
+			}
+			PRC_zhu_de = {
+				add_unit_leader_trait = career_officer
+				add_unit_leader_trait = war_hero
+			}
+			PRC_lin_biao = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Lin_Biao
+						small = GFX_portrait_Lin_Biao_small
+					}
+				}
+				add_unit_leader_trait = career_officer
+				add_unit_leader_trait = brilliant_strategist
+			}
+			PRC_he_yuandang = {
+				set_portraits = {
+					civilian = {
+						small = GFX_portrait_Wu_YunDuo_small
+					}
+				}
+			}
+			PRC_fang_zeyi = {
+				set_portraits = {
+					army = {
+						small = GFX_portrait_Fang_ZiYi_small
+					}
+				}
+			}
+			PRC_lin_bojiu = {
+				set_portraits = {
+					civilian = {
+						small = GFX_portrait_Lin_BoQu_small
+					}
+				}
+			}
+			PRC_nie_rongzhen = {
+				set_portraits = {
+					army = {
+						small = GFX_portrait_Nie_RongZhen_small
+					}
+				}
+			}
+			PRC_ye_jianying = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Ye_JianYing
+						small = GFX_portrait_Ye_JianYing_small
+					}
+				}
+			}
+			PRC_he_long = {
+				set_portraits = {
+					civilian = {
+						large = GFX_portrait_He_Long
+						small = GFX_portrait_He_Long_small
+					}
+				}
+			}
+			PRC_luo_rong_huan = {
+				set_portraits = {
+					civilian = {
+						large = GFX_portrait_Luo_RongHuan
+						small = GFX_portrait_Luo_RongHuan_small
+					}
+				}
+			}
+			retire_character = PRC_su_yu
+			generate_character = {
+				token_base = PRC_su_yu
+				name = PRC_su_yu
+				portraits = {
+					army = {
+						large = GFX_portrait_Su_Yu
+						small = GFX_portrait_Su_Yu_small
+					}
+				}
+				advisor = {
+					slot = army_chief
+					idea_token = PRC_su_yu
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						army_chief_reform_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					traits = {
+						infantry_officer
+						brilliant_strategist
+						harsh_leader
+						trickster
+					}
+					skill = 3
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_chen_geng
+			generate_character = {
+				token_base = PRC_chen_geng
+				name = PRC_chen_geng
+				portraits = {
+					army = {
+						large = GFX_portrait_Chen_Geng
+						small = GFX_idea_PRC_chen_geng
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = PRC_chen_geng
+					ledger = army
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						army_entrenchment_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					traits = {
+						career_officer
+						brilliant_strategist
+						harsh_leader
+						infantry_officer
+					}
+					skill = 3
+					attack_skill = 3
+					defense_skill = 4
+					planning_skill = 3
+					logistics_skill = 4
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_ziao_jingguang
+			generate_character = {
+				token_base = PRC_ziao_jingguang
+				name = PRC_ziao_jingguang
+				portraits = {
+					army = {
+						large = GFX_portrait_Xiao_JinGuang
+						small = GFX_portrait_Xiao_JinGuang_small
+					}
+				}
+				advisor = {
+					slot = navy_chief
+					idea_token = PRC_ziao_jingguang
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						navy_chief_maneuver_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			recruit_character = PRC_Xu_HaiDong_plus
+			recruit_character = PRC_Huang_KeCheng_plus
+			recruit_character = PRC_Tan_Zheng_plus
+			recruit_character = PRC_Zhang_YunYi_plus
+			recruit_character = PRC_Wang_ShuSheng_plus
+			recruit_character = PRC_Xu_GuangDa_plus
+			recruit_character = PRC_Zuo_Quan_plus
+			recruit_character = PRC_Bo_Gu
+			recruit_character = PRC_Zhou_XiHan
+			recruit_character = PRC_Zeng_KeLin
+			recruit_character = PRC_Huang_ZhongCheng
+			recruit_character = PRC_Ma_ZhongQuan
+			recruit_character = PRC_Liu_HuaQing
+			recruit_character = PRC_Liu_ChangYi
+			# todo 罗瑞卿、邓小平单独处理
+		}
+		# 适配原版
+		else = {
+			retire_character = PRC_deng_ye_peng
+			PRC_mao_zedong = {
+				remove_unit_leader_trait = politically_connected
+				add_unit_leader_trait = brilliant_strategist
+			}
+			PRC_zhu_de = {
+				add_unit_leader_trait = career_officer
+				add_unit_leader_trait = war_hero
+			}
+			PRC_lin_biao = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Lin_Biao
+						small = GFX_portrait_Lin_Biao_small
+					}
+				}
+				add_unit_leader_trait = career_officer
+				add_unit_leader_trait = brilliant_strategist
+			}
+			PRC_he_yuandang = {
+				set_portraits = {
+					civilian = {
+						small = GFX_portrait_Wu_YunDuo_small
+					}
+				}
+			}
+			PRC_fang_zeyi = {
+				set_portraits = {
+					army = {
+						small = GFX_portrait_Fang_ZiYi_small
+					}
+				}
+			}
+			PRC_lin_bojiu = {
+				set_portraits = {
+					civilian = {
+						small = GFX_portrait_Lin_BoQu_small
+					}
+				}
+			}
+			retire_character = PRC_gao_gang
+			generate_character = {
+				token_base = PRC_gao_gang
+				name = PRC_gao_gang
+				portraits = {
+					army = {
+						small = GFX_portrait_Gao_Gang_small
+					}
+				}
+				advisor = {
+					cost = 100
+					slot = political_advisor
+					idea_token = PRC_gao_gang
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						political_commissar
+					}
+					ai_will_do = {
+						factor = 1
+					}
+				}
+			}
+			retire_character = PRC_liu_bocheng
+			generate_character = {
+				token_base = PRC_liu_bocheng
+				name = PRC_liu_bocheng
+				portraits = {
+					army = {
+						large = GFX_portrait_Liu_BoCheng
+						small = GFX_idea_PRC_liu_bocheng
+					}
+				}
+				advisor = {
+					cost = 100
+					slot = theorist
+					idea_token = PRC_liu_bocheng
+					ledger = army
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						military_theorist
+					}
+				}
+				corps_commander = {
+					skill = 3
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_chen_yi
+			generate_character = {
+				token_base = PRC_chen_yi
+				name = PRC_chen_yi
+				portraits = {
+					army = {
+						large = GFX_portrait_prc_chen_yi
+						small = GFX_portrait_PRC_chen_yi_small
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = PRC_chen_yi
+					ledger = army
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						army_artillery_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					traits = {
+						infantry_officer
+					}
+					skill = 3
+					attack_skill = 4
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_xu_xiangqian
+			generate_character = {
+				token_base = PRC_xu_xiangqian
+				name = PRC_xu_xiangqian
+				portraits = {
+					army = {
+						large = GFX_portrait_Xu_XiangQian
+						small = GFX_portrait_Xu_XiangQian_small
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = PRC_xu_xiangqian
+					ledger = army
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						army_infantry_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					traits = {
+						infantry_officer
+					}
+					skill = 3
+					attack_skill = 2
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_nie_rongzhen
+			generate_character = {
+				token_base = PRC_nie_rongzhen
+				name = PRC_nie_rongzhen
+				portraits = {
+					army = {
+						large = GFX_portrait_Nie_RongZhen
+						small = GFX_portrait_Nie_RongZhen_small
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = PRC_nie_rongzhen
+					ledger = army
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						army_regrouping_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					traits = {
+					}
+					skill = 2
+					attack_skill = 1
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 1
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_ye_jianying
+			generate_character = {
+				token_base = PRC_ye_jianying
+				name = PRC_ye_jianying
+				portraits = {
+					army = {
+						large = GFX_portrait_Ye_JianYing
+						small = GFX_portrait_Ye_JianYing_small
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = PRC_ye_jianying
+					ledger = army
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						army_logistics_2
+					}
+					cost = 100
+				}
+				corps_commander = {
+					traits = {
+					}
+					skill = 3
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_su_yu
+			generate_character = {
+				token_base = PRC_su_yu
+				name = PRC_su_yu
+				portraits = {
+					army = {
+						large = GFX_portrait_Su_Yu
+						small = GFX_portrait_Su_Yu_small
+					}
+				}
+				advisor = {
+					slot = army_chief
+					idea_token = PRC_su_yu
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						army_chief_reform_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					traits = {
+						infantry_officer
+						brilliant_strategist
+						harsh_leader
+						trickster
+					}
+					skill = 3
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_chen_geng
+			generate_character = {
+				token_base = PRC_chen_geng
+				name = PRC_chen_geng
+				portraits = {
+					army = {
+						large = GFX_portrait_Chen_Geng
+						small = GFX_idea_PRC_chen_geng
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = PRC_chen_geng
+					ledger = army
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						army_entrenchment_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					traits = {
+						career_officer
+						brilliant_strategist
+						harsh_leader
+						infantry_officer
+					}
+					skill = 3
+					attack_skill = 3
+					defense_skill = 4
+					planning_skill = 3
+					logistics_skill = 4
+					legacy_id = -1
+				}
+			}
+			retire_character = PRC_ziao_jingguang
+			generate_character = {
+				token_base = PRC_ziao_jingguang
+				name = PRC_ziao_jingguang
+				portraits = {
+					army = {
+						large = GFX_portrait_Xiao_JinGuang
+						small = GFX_portrait_Xiao_JinGuang_small
+					}
+				}
+				advisor = {
+					slot = navy_chief
+					idea_token = PRC_ziao_jingguang
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						navy_chief_maneuver_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			generate_character = {
+				token_base = PRC_luo_ruiqing
+				name = PRC_luo_ruiqing
+				portraits = {
+					civilian = {
+						small = GFX_portrait_Luo_RuiQing_small
+					}
+					army = {
+						large = GFX_portrait_Luo_RuiQing
+						small = GFX_portrait_Luo_RuiQing_small2
+					}
+				}
+				advisor = {
+					slot = political_advisor
+					idea_token = PRC_luo_ruiqing
+					available = {
+						has_intelligence_agency = yes
+						has_focus_tree = china_communist_focus
+					}
+					allowed = {
+						OR = {
+							original_tag = PRC
+							is_chinese_warlord = yes
+						}
+						has_dlc = "La Resistance"
+						NOT = {
+							original_tag = MAN
+						}
+					}
+					traits = {
+						gran_carabinero
+					}
+				}
+				corps_commander = {
+					traits = {
+						career_officer
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 1
+					planning_skill = 2
+					logistics_skill = 1
+					legacy_id = -1
+				}
+			}
+			generate_character = {
+				token_base = PRC_deng_xiaoping
+				name = PRC_deng_xiaoping
+				portraits = {
+					army = {
+						large = GFX_portrait_Deng_XiaoPing
+						small = GFX_idea_PRC_deng_xiaoping
+					}
+				}
+				advisor = {
+					slot = political_advisor
+					idea_token = PRC_deng_xiaoping
+					available = {
+						has_completed_focus = PRC_socialist_market_economy
+					}
+					allowed = {
+						OR = {
+							original_tag = PRC
+							is_chinese_warlord = yes
+						}
+						has_dlc = "Waking the Tiger"
+					}
+					traits = {
+						captain_of_industry
+					}
+				}
+				corps_commander = {
+					traits = {
+						harsh_leader
+						infantry_officer
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 3
+					legacy_id = -1
+				}
+			}
+			recruit_character = PRC_He_Long_plus
+			recruit_character = PRC_Luo_RongHuan_plus
+			recruit_character = PRC_Xu_HaiDong_plus
+			recruit_character = PRC_Huang_KeCheng_plus
+			recruit_character = PRC_Tan_Zheng_plus
+			recruit_character = PRC_Zhang_YunYi_plus
+			recruit_character = PRC_Wang_ShuSheng_plus
+			recruit_character = PRC_Xu_GuangDa_plus
+			recruit_character = PRC_Zuo_Quan_plus
+			recruit_character = PRC_Bo_Gu
+			recruit_character = PRC_Zhou_XiHan
+			recruit_character = PRC_Zeng_KeLin
+			recruit_character = PRC_Huang_ZhongCheng
+			recruit_character = PRC_Ma_ZhongQuan
+			recruit_character = PRC_Liu_HuaQing
+			recruit_character = PRC_Liu_ChangYi
+		}
+	}
+	SHX = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			SHX_wang_jingguo = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Wang_JingGuo
+						small = GFX_portrait_Wang_JingGuo_small
+					}
+				}
+			}
+			SHX_fu_zuoyi = {
+				set_portraits = {
+					army = {
+						small = GFX_idea_CHI_fu_zuoyi
+					}
+				}
+			}
+			SHX_zhao_chengshou = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Zhao_ChengShou
+						small = GFX_portrait_Zhao_ChengShou_small
+					}
+				}
+			}
+			retire_character = SHX_sun_chu
+			generate_character = {
+				token_base = SHX_sun_chu
+				name = CHI_Sun_Chu
+				portraits = {
+					army = {
+						large = GFX_portrait_Sun_Chu
+						small = GFX_portrait_Sun_Chu_small
+					}
+				}
+				advisor = {
+					slot = political_advisor
+					idea_token = SHX_sun_chu
+					allowed = {
+						original_tag = SHX
+					}
+					traits = {
+						prince_of_terror
+					}
+				}
+				corps_commander = {
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			retire_character = SHX_yang_chengyan
+			generate_character = {
+				token_base = SHX_yang_chengyan
+				name = CHI_Yang_ChengYuan
+				portraits = {
+					army = {
+						large = GFX_portrait_Yang_ChengYuan
+						small = GFX_portrait_Yang_ChengYuan_small
+					}
+				}
+				advisor = {
+					slot = army_chief
+					idea_token = SHX_yang_chengyan
+					allowed = {
+						original_tag = SHX
+					}
+					traits = {
+						army_chief_offensive_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				advisor = {
+					cost = 100
+					slot = theorist
+					idea_token = SHX_yang_chengyan2
+					ledger = army
+					allowed = {
+						original_tag = SHX
+					}
+					traits = {
+						military_theorist
+					}
+				}
+				corps_commander = {
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			recruit_character = CHI_Yang_AiYuan
+			recruit_character = CHI_Chu_XiChun
+		}
+		# 适配原版
+		else = {
+			SHX_wang_jingguo = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Wang_JingGuo
+						small = GFX_portrait_Wang_JingGuo_small
+					}
+				}
+			}
+			SHX_fu_zuoyi = {
+				set_portraits = {
+					army = {
+						small = GFX_idea_CHI_fu_zuoyi
+					}
+				}
+			}
+			recruit_character = CHI_Sun_Chu
+			recruit_character = CHI_Yang_AiYuan
+			recruit_character = CHI_Zhao_ChengShou
+			recruit_character = CHI_Chu_XiChun
+			recruit_character = CHI_Yang_ChengYuan
+		}
+	}
+	XSM = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			XSM_ma_hongbin = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Ma_HongBin
+						small = GFX_portrait_Ma_HongBin_small
+					}
+				}
+			}
+			XSM_ma_hongkui = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Ma_HongKui
+						small = GFX_portrait_Ma_HongKui_small
+					}
+				}
+			}
+			retire_character = XSM_ma_buqing
+			generate_character = {
+				token_base = XSM_ma_buqing
+				name = XSM_ma_buqing
+				portraits = {
+					army = {
+						large = GFX_portrait_Ma_BuQing
+						small = GFX_portrait_Ma_BuQing_small
+					}
+				}
+				advisor = {
+					slot = army_chief
+					idea_token = XSM_ma_buqing
+					allowed = {
+						original_tag = XSM
+					}
+					traits = {
+						army_chief_reform_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				advisor = {
+					#eh good enough
+					slot = political_advisor
+					idea_token = XSM_ma_buqing3
+					allowed = {
+						original_tag = XSM
+					}
+					traits = {
+						mediator
+					}
+				}
+				advisor = {
+					slot = high_command
+					idea_token = XSM_ma_buqing2
+					ledger = army
+					allowed = {
+						original_tag = TNG
+					}
+					traits = {
+						army_regrouping_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+				corps_commander = {
+					traits = {
+					}
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 1
+					legacy_id = -1
+				}
+			}
+			recruit_character = CHI_Ma_Lu
+			recruit_character = CHI_Ma_Biao
+		}
+		# 适配原版
+		else = {
+			# todo 有缺陷，蠢驴代码问题
+			# XSM_ma_bufang = {
+			# 	add_corps_commander_role = {
+			# 		traits = {
+			# 			cavalry_officer
+			# 		}
+			# 		skill = 3
+			# 		attack_skill = 4
+			# 		defense_skill = 2
+			# 		planning_skill = 2
+			# 		logistics_skill = 2
+			# 		legacy_id = -1
+			# 	}
+			# }
+			XSM_ma_buqing = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Ma_BuQing
+						small = GFX_portrait_Ma_BuQing_small
+					}
+				}
+				add_corps_commander_role = {
+					traits = {
+						cavalry_officer
+					}
+					skill = 3
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			XSM_ma_hongbin = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Ma_HongBin
+						small = GFX_portrait_Ma_HongBin_small
+					}
+				}
+			}
+			# todo 马鸿逵将领不能升级，P社蠢驴代码问题
+			XSM_ma_hongkui = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Ma_HongKui
+						small = GFX_portrait_Ma_HongKui_small
+					}
+				}
+				add_corps_commander_role = {
+					traits = {
+						cavalry_officer
+					}
+					skill = 3
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+			}
+			recruit_character = CHI_Ma_Lu
+			recruit_character = CHI_Ma_Biao
+		}
+	}
+	YUN = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			YUN_lu_han = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Lu_Han
+						small = GFX_portrait_Lu_Han_small
+					}
+				}
+			}
+			YUN_sun_du = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Sun_Du
+						small = GFX_portrait_Sun_Du_small
+					}
+				}
+			}
+			recruit_character = CHI_Zhang_Chong
+			recruit_character = CHI_An_EnPu
+			recruit_character = CHI_Wang_JiaBen
+		}
+		# 适配原版
+		else = {
+			# todo 加入将领待定
+			# YUN_long_yun = {
+			# 	add_corps_commander_role = {
+			# 		traits = {
+			# 			war_hero
+			# 		}
+			# 		skill = 3
+			# 		attack_skill = 2
+			# 		defense_skill = 3
+			# 		planning_skill = 3
+			# 		logistics_skill = 2
+			# 		legacy_id = -1
+			# 	}
+			# }
+			YUN_lu_han = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Lu_Han
+						small = GFX_portrait_Lu_Han_small
+					}
+				}
+			}
+			# YUN_zhou_zhirou = {
+			# 	set_portraits = {
+			# 		army = {
+			# 			small = GFX_portrait_Zhou_ZhiRou_small
+			# 		}
+			# 	}
+			# }
+			recruit_character = CHI_Sun_Du
+			recruit_character = CHI_Zhang_Chong
+			recruit_character = CHI_An_EnPu
+			recruit_character = CHI_Wang_JiaBen
+		}
+	}
+	GXC = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			GXC_bai_chongxi = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Bai_ChongXi
+						small = GFX_portrait_Bai_ChongXi_small
+					}
+				}
+			}
+			generate_character = {
+				token_base = GXC_chen_jitang
+				name = GXC_chen_jitang
+				portraits = {
+					army = {
+						large = GFX_portrait_Chen_JiTang_plus
+						small = GFX_portrait_Chen_JiTang_plus_small
+					}
+				}
+				corps_commander = {
+					traits = {
+						career_officer
+						infantry_officer
+					}
+					skill = 2
+					attack_skill = 1
+					defense_skill = 2
+					planning_skill = 1
+					logistics_skill = 2
+					legacy_id = -1
+				}
+				advisor = {
+					slot = army_chief
+					idea_token = GXC_chen_jitang
+					allowed = {
+						original_tag = GXC
+					}
+					traits = {
+						army_chief_defensive_2
+					}
+					cost = 100
+					ai_will_do = {
+						factor = 1
+					}
+				}
+			}
+			generate_character = {
+				token_base = GXC_yu_hanmou
+				name = GXC_yu_hanmou
+				portraits = {
+					army = {
+						large = GFX_portrait_Yu_HanMou
+						small = GFX_idea_CHI_yu_hanmou
+					}
+				}
+				corps_commander = {
+					traits = {
+						career_officer
+						infantry_officer
+					}
+					skill = 2
+					attack_skill = 1
+					defense_skill = 2
+					planning_skill = 1
+					logistics_skill = 2
+					legacy_id = -1
+				}
+				advisor = {
+					cost = 100
+					slot = theorist
+					idea_token = GXC_yu_hanmou
+					ledger = army
+					allowed = {
+						original_tag = GXC
+					}
+					traits = {
+						military_theorist
+					}
+				}
+			}
+			recruit_character = CHI_Jiang_GuangNai
+		}
+		# 适配原版
+		else = {
+			# todo 有问题，待定
+			# GXC_li_zongren = {
+			# 	add_corps_commander_role = {
+			# 		traits = {
+			# 			infantry_officer
+			# 		}
+			# 		skill = 3
+			# 		attack_skill = 3
+			# 		defense_skill = 3
+			# 		planning_skill = 2
+			# 		logistics_skill = 2
+			# 	}
+			# }
+			GXC_chen_jitang = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Chen_JiTang_plus
+						small = GFX_portrait_Chen_JiTang_plus_small
+					}
+				}
+			}
+			retire_character = GXC_huang_shaohong
+			generate_character = {
+				token_base = GXC_huang_shaohong
+				name = GXC_huang_shaohong
+				portraits = {
+					army = {
+						large = GFX_portrait_Huang_ShaoHong
+						small = GFX_portrait_Huang_ShaoHong_small
+					}
+				}
+				corps_commander = {
+					traits = {
+						career_officer
+						infantry_officer
+					}
+					skill = 2
+					attack_skill = 1
+					defense_skill = 2
+					planning_skill = 1
+					logistics_skill = 2
+					legacy_id = -1
+				}
+				advisor = {
+					cost = 100
+					slot = army_chief
+					idea_token = GXC_huang_shaohong
+					ledger = army
+					allowed = {
+						original_tag = GXC
+					}
+					traits = {
+						army_chief_offensive_2
+					}
+				}
+			}
+			GXC_bai_chongxi = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Bai_ChongXi
+						small = GFX_portrait_Bai_ChongXi_small
+					}
+				}
+				add_naval_commander_role = {
+					skill = 1
+					attack_skill = 1
+					defense_skill = 1
+					maneuvering_skill = 1
+					coordination_skill = 1
+				}
+			}
+			retire_character = GXC_yu_hanmou
+			generate_character = {
+				token_base = GXC_yu_hanmou
+				name = GXC_yu_hanmou
+				portraits = {
+					army = {
+						large = GFX_portrait_Yu_HanMou
+						small = GFX_idea_CHI_yu_hanmou
+					}
+				}
+				corps_commander = {
+					traits = {
+						career_officer
+						infantry_officer
+					}
+					skill = 2
+					attack_skill = 1
+					defense_skill = 2
+					planning_skill = 1
+					logistics_skill = 2
+					legacy_id = -1
+				}
+				advisor = {
+					cost = 100
+					slot = theorist
+					idea_token = GXC_yu_hanmou
+					ledger = army
+					allowed = {
+						original_tag = GXC
+					}
+					traits = {
+						military_theorist
+					}
+				}
+			}
+			GXC_wang_shuming = {
+				set_portraits = {
+					army = {
+						small = GFX_idea_CHI_wang_shuming
+					}
+				}
+			}
+			recruit_character = CHI_Jiang_GuangNai
+			recruit_character = CHI_Li_JiShen
+		}
+	}
+	SIK = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+		}
+		# 适配原版
+		else = {
+		}
+	}
+	MAN = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			MAN_naoki_hoshino = {
+				set_portraits = {
+					civilian = {
+						small = GFX_portrait_Naoki_Hoshino_small
+					}
+				}
+			}
+			recruit_character = MAN_Ji_Xing
+			recruit_character = MAN_Xing_ShiLian
+			recruit_character = MAN_Yu_ChenCheng
+			recruit_character = MAN_Lin_Qi
+			recruit_character = MAN_Rokusashi_Takebe
+			recruit_character = MAN_Yu_JingTao
+			recruit_character = MAN_Zhao_XinBo
+			recruit_character = MAN_Cheng_ZhiYuan
+			recruit_character = MAN_Wang_ZhiYou
+		}
+		# 适配原版
+		else = {
+			recruit_character = MAN_Ji_Xing
+			recruit_character = MAN_Xing_ShiLian
+			recruit_character = MAN_Yu_ChenCheng
+			recruit_character = MAN_Yu_ZhiShan
+			recruit_character = MAN_Lin_Qi
+			recruit_character = MAN_Rokusashi_Takebe
+			recruit_character = MAN_Naoki_Hoshino
+			recruit_character = MAN_Yu_JingTao
+			recruit_character = MAN_Zang_ShiYi
+			recruit_character = MAN_Zhao_XinBo
+			recruit_character = MAN_Cheng_ZhiYuan
+			recruit_character = MAN_Wang_ZhiYou
+		}
+	}
+	SOV = {
+		# 适配56之路
+		if = {
+			limit = {
+				has_global_flag = VOLGA_DON_NOT_BUILT
+			}
+			recruit_character = SOV_andrei_alexandrovich_zhdanov
+		}
+		# 适配原版
+		else = {
+			recruit_character = SOV_andrei_alexandrovich_zhdanov
+		}
+	}
+}

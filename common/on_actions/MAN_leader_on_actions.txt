@@ -1,0 +1,22 @@
+on_actions = {
+	on_daily_MAN = {
+		effect = {
+			if = {
+				limit = {
+					MAN = {
+						has_cosmetic_tag = MAN_restored
+					}
+				}
+				every_state = {
+					limit = {
+						OR = {
+							is_core_of = MON
+							is_core_of = TAN
+						}
+					}
+					add_core_of = MAN
+				}
+			}
+		}
+	}
+}

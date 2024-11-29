@@ -545,27 +545,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	CHI_Li_JiShen = {
-		name = CHI_Li_JiShen
-		portraits = {
-			army = {
-				large = GFX_portrait_Li_JiShen
-				small = GFX_portrait_Li_JiShen_small
-			}
-		}
-		corps_commander = {
-			traits = {
-				career_officer
-				skilled_staffer
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = -1
-		}
-	}
 	CHI_Hao_MengLing = {
 		# TODO 1937.10.16殉国，39剧本移除
 		name = CHI_Hao_MengLing
@@ -599,12 +578,33 @@ characters = {
 			traits = {
 				career_officer
 				infantry_officer
+				politically_connected
 			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Guan_LinZheng = {
+		name = CHI_Guan_LinZheng
+		portraits = {
+			army = {
+				large = GFX_portrait_Guan_LinZheng
+				small = GFX_portrait_Guan_LinZheng_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id = -1
 		}
 	}

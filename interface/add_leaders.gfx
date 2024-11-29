@@ -168,6 +168,10 @@ spriteTypes = {
 		name = "GFX_portrait_Song_XiLian"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Song_XiLian.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_Guan_LinZheng"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Guan_LinZheng.dds"
+	}
 	# PRC
 	spriteType = {
 		name = "GFX_portrait_Chen_Geng"
@@ -493,6 +497,10 @@ spriteTypes = {
 		name = "GFX_portrait_Song_XiLian_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Song_XiLian.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_Guan_LinZheng_small"
+		texturefile = "gfx/interface/ideas/idea_generic_Guan_LinZheng.dds"
+	}
 	# PRC
 	spriteType = {
 		name = "GFX_portrait_Xiao_JinGuang_small"
@@ -609,6 +617,42 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Liu_ChangYi_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Liu_ChangYi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Bo_YiBo_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Bo_YiBo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Peng_DeHuai_2_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Peng_DeHuai_2.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Zhu_De_2_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Zhu_De_2.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Chang_QianKun_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Chang_QianKun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xiao_Hua_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Xiao_Hua.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Cao_XiangRen_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Cao_XiangRen.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Chen_ZhengRen_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Chen_ZhengRen.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Cheng_FangWu_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Cheng_FangWu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Deng_Fa_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Deng_Fa.dds"
 	}
 	# MAN
 	spriteType = {

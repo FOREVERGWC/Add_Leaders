@@ -25,9 +25,9 @@
  CHI_Zhang_ZhiZhong:0 "張治中"
  CHI_Luo_ZhuoYing:0 "羅卓英"
  CHI_Wan_FuLin:0 "萬福麟"
- CHI_Li_JiShen:0 "李濟深"
  CHI_Hao_MengLing:0 "郝夢齡"
  CHI_Song_XiLian:0 "宋希濂"
+ CHI_Guan_LinZheng:0 "關麟征"
  # PRC
  PRC_Bo_Gu:0 "博古"
  PRC_Zhu_De_plus:0 "朱徳"
@@ -50,6 +50,12 @@
  PRC_Ma_ZhongQuan:0 "馬忠全"
  PRC_Liu_HuaQing:0 "劉華清"
  PRC_Liu_ChangYi:0 "劉昌毅"
+ PRC_Chang_QianKun:0 "常乾坤"
+ PRC_Xiao_Hua:0 "蕭華"
+ PRC_Cao_XiangRen:0 "曹祥仁"
+ PRC_Chen_ZhengRen:0 "陳正人"
+ PRC_Cheng_FangWu:0 "成仿吾"
+ PRC_Deng_Fa:0 "鄧發"
  # MAN
  MAN_Ji_Xing:0 "吉興"
  MAN_Xing_ShiLian:0 "邢士廉"

@@ -272,6 +272,9 @@
 					}
 				}
 				corps_commander = {
+					traits = {
+						politically_connected
+					}
 					skill = 2
 					attack_skill = 2
 					defense_skill = 2
@@ -317,6 +320,7 @@
 			recruit_character = CHI_Luo_ZhuoYing
 			recruit_character = CHI_Wan_FuLin
 			recruit_character = CHI_Song_XiLian
+			recruit_character = CHI_Guan_LinZheng
 		}
 	}
 	PRC = {
@@ -544,6 +548,50 @@
 				}
 				add_unit_leader_trait = career_officer
 				add_unit_leader_trait = brilliant_strategist
+				add_advisor_role = {
+					advisor = {
+						slot = political_advisor
+						cost = 150
+						idea_token = PRC_lin_biao
+						traits = {
+							BEL_minister_of_national_defence_deveze
+						}
+					}
+				}
+			}
+			PRC_peng_dehuai = {
+				set_portraits = {
+					civilian = {
+						small = GFX_portrait_Peng_DeHuai_2_small
+					}
+				}
+				add_advisor_role = {
+					advisor = {
+						slot = political_advisor
+						cost = 150
+						idea_token = PRC_peng_dehuai
+						traits = {
+							JUNO_minister_of_defense
+						}
+					}
+				}
+			}
+			PRC_zhu_de = {
+				set_portraits = {
+					civilian = {
+						small = GFX_portrait_Zhu_De_2_small
+					}
+				}
+				add_advisor_role = {
+					advisor = {
+						slot = political_advisor
+						cost = 150
+						idea_token = PRC_zhu_de
+						traits = {
+							AUS_communist_revolutionary
+						}
+					}
+				}
 			}
 			PRC_he_yuandang = {
 				set_portraits = {
@@ -669,14 +717,13 @@
 					}
 				}
 				advisor = {
-					slot = high_command
+					slot = army_chief
 					idea_token = PRC_xu_xiangqian
-					ledger = army
 					allowed = {
 						original_tag = PRC
 					}
 					traits = {
-						army_infantry_2
+						army_chief_maneuver_2
 					}
 					cost = 100
 					ai_will_do = {
@@ -706,14 +753,13 @@
 					}
 				}
 				advisor = {
-					slot = high_command
+					slot = army_chief
 					idea_token = PRC_nie_rongzhen
-					ledger = army
 					allowed = {
 						original_tag = PRC
 					}
 					traits = {
-						army_regrouping_2
+						army_chief_organizational_2
 					}
 					cost = 100
 					ai_will_do = {
@@ -976,6 +1022,13 @@
 			recruit_character = PRC_Ma_ZhongQuan
 			recruit_character = PRC_Liu_HuaQing
 			recruit_character = PRC_Liu_ChangYi
+			recruit_character = PRC_Bo_YiBo
+			recruit_character = PRC_Chang_QianKun
+			recruit_character = PRC_Xiao_Hua
+			recruit_character = PRC_Cao_XiangRen
+			recruit_character = PRC_Chen_ZhengRen
+			recruit_character = PRC_Cheng_FangWu
+			recruit_character = PRC_Deng_Fa
 		}
 	}
 	SHX = {
@@ -1518,6 +1571,39 @@
 					}
 				}
 			}
+			retire_character = GXC_li_jishen
+			generate_character = {
+				token_base = GXC_li_jishen
+				name = GXC_li_jishen
+				portraits = {
+					army = {
+						large = GFX_portrait_Li_JiShen
+						small = GFX_portrait_Li_JiShen_small
+					}
+				}
+				corps_commander = {
+					traits = {
+						career_officer
+						skilled_staffer
+					}
+					skill = 3
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+					legacy_id = -1
+				}
+				advisor = {
+					slot = political_advisor
+					idea_token = GXC_li_jishen
+					allowed = {
+						original_tag = GXC
+					}
+					traits = {
+						smooth_talking_charmer
+					}
+				}
+			}
 			GXC_wang_shuming = {
 				set_portraits = {
 					army = {
@@ -1526,7 +1612,6 @@
 				}
 			}
 			recruit_character = CHI_Jiang_GuangNai
-			recruit_character = CHI_Li_JiShen
 		}
 	}
 	SIK = {

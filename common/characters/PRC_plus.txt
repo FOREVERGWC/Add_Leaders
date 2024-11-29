@@ -340,6 +340,24 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			cost = 50
+			idea_token = PRC_Liu_HuaQing
+			traits = {
+				naval_aviation_pioneer
+			}
+			allowed = {
+				original_tag = PRC
+			}
+			visible = {
+				has_country_flag = PRC_form_PLAN
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	PRC_Liu_ChangYi = {
 		name = PRC_Liu_ChangYi
@@ -361,6 +379,154 @@ characters = {
 			defense_skill = 1
 			maneuvering_skill = 1
 			coordination_skill = 1
+		}
+	}
+	PRC_Bo_YiBo = {
+		name = CHI_bo_yibo
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Bo_YiBo_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Bo_YiBo
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				finansminister
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Chang_QianKun = {
+		name = PRC_Chang_QianKun
+		portraits = {
+			army = {
+				small = GFX_portrait_Chang_QianKun_small
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = PRC_Chang_QianKun
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Xiao_Hua = {
+		name = PRC_Xiao_Hua
+		portraits = {
+			army = {
+				small = GFX_portrait_Xiao_Hua_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = PRC_Xiao_Hua
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				army_commando_2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Cao_XiangRen = {
+		name = PRC_Cao_XiangRen
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Cao_XiangRen_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Cao_XiangRen
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				mastermind_code_cracker
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Chen_ZhengRen = {
+		name = PRC_Chen_ZhengRen
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Chen_ZhengRen_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Chen_ZhengRen
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				JUNO_minister_of_public_works
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Cheng_FangWu = {
+		name = PRC_Cheng_FangWu
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Cheng_FangWu_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Cheng_FangWu
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				leftist_intellectual
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Deng_Fa = {
+		name = PRC_Deng_Fa
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Deng_Fa_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Deng_Fa
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				minister_of_the_interior
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 }

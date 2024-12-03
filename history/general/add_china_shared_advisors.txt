@@ -321,6 +321,10 @@
 			recruit_character = CHI_Wan_FuLin
 			recruit_character = CHI_Song_XiLian
 			recruit_character = CHI_Guan_LinZheng
+			recruit_character = CHI_Sun_WeiRu
+			recruit_character = CHI_Zhu_ShaoLiang
+			recruit_character = CHI_Li_MoAn
+			recruit_character = CHI_Huang_Jie
 		}
 	}
 	PRC = {

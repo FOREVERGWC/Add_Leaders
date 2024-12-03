@@ -608,4 +608,86 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	CHI_Sun_WeiRu = {
+		name = CHI_Sun_WeiRu
+		portraits = {
+			army = {
+				large = GFX_portrait_Sun_WeiRu
+				small = GFX_portrait_Sun_WeiRu_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Zhu_ShaoLiang = {
+		name = CHI_Zhu_ShaoLiang
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhu_ShaoLiang
+				small = GFX_portrait_Zhu_ShaoLiang_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Li_MoAn = {
+		name = CHI_Li_MoAn
+		portraits = {
+			army = {
+				large = GFX_portrait_Li_MoAn
+				small = GFX_portrait_Li_MoAn_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Huang_Jie = {
+		name = CHI_Huang_Jie
+		portraits = {
+			army = {
+				large = GFX_portrait_Huang_Jie
+				small = GFX_portrait_Huang_Jie_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_engineer
+				career_officer
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
 }

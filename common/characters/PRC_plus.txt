@@ -522,7 +522,7 @@ characters = {
 				original_tag = PRC
 			}
 			traits = {
-				minister_of_the_interior
+				minister_of_the_interior_aregai
 			}
 			ai_will_do = {
 				factor = 1

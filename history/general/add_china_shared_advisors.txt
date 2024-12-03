@@ -325,6 +325,12 @@
 			recruit_character = CHI_Zhu_ShaoLiang
 			recruit_character = CHI_Li_MoAn
 			recruit_character = CHI_Huang_Jie
+			recruit_character = CHI_He_ChengJun
+			recruit_character = CHI_He_ZhuGuo
+			recruit_character = CHI_Feng_ZhiAn
+			recruit_character = CHI_Liu_Zhi
+			recruit_character = CHI_Xia_Wei
+			recruit_character = CHI_Wang_ZhongLian
 		}
 	}
 	PRC = {

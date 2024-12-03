@@ -690,4 +690,127 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	CHI_He_ChengJun = {
+		name = CHI_He_ChengJun
+		portraits = {
+			army = {
+				large = GFX_portrait_He_ChengJun
+				small = GFX_portrait_He_ChengJun_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_He_ZhuGuo = {
+		name = CHI_He_ZhuGuo
+		portraits = {
+			army = {
+				large = GFX_portrait_He_ZhuGuo
+				small = GFX_portrait_He_ZhuGuo_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				career_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Feng_ZhiAn = {
+		name = CHI_Feng_ZhiAn
+		portraits = {
+			army = {
+				large = GFX_portrait_Feng_ZhiAn
+				small = GFX_portrait_Feng_ZhiAn_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_engineer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	CHI_Liu_Zhi = {
+		name = CHI_Liu_Zhi
+		portraits = {
+			army = {
+				large = GFX_portrait_Liu_Zhi
+				small = GFX_portrait_Liu_Zhi_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				career_officer
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Xia_Wei = {
+		name = CHI_Xia_Wei
+		portraits = {
+			army = {
+				large = GFX_portrait_Xia_Wei
+				small = GFX_portrait_Xia_Wei_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Wang_ZhongLian = {
+		name = CHI_Wang_ZhongLian
+		portraits = {
+			army = {
+				large = GFX_portrait_Wang_ZhongLian
+				small = GFX_portrait_Wang_ZhongLian_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
 }

@@ -813,4 +813,128 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	CHI_Yu_XueZhong = {
+		name = CHI_Yu_XueZhong
+		portraits = {
+			army = {
+				large = GFX_portrait_Yu_XueZhong
+				small = GFX_portrait_Yu_XueZhong_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Wu_QiWei = {
+		name = CHI_Wu_QiWei
+		portraits = {
+			army = {
+				large = GFX_portrait_Wu_QiWei
+				small = GFX_portrait_Wu_QiWei_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Tang_ShiZun = {
+		name = CHI_Tang_ShiZun
+		portraits = {
+			army = {
+				large = GFX_portrait_Tang_ShiZun
+				small = GFX_portrait_Tang_ShiZun_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Xia_ChuZhong = {
+		name = CHI_Xia_ChuZhong
+		portraits = {
+			army = {
+				large = GFX_portrait_Xia_ChuZhong
+				small = GFX_portrait_Xia_ChuZhong_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Xu_YuanQuan = {
+		name = CHI_Xu_YuanQuan
+		portraits = {
+			army = {
+				large = GFX_portrait_Xu_YuanQuan
+				small = GFX_portrait_Xu_YuanQuan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	CHI_Li_YuTang = {
+		name = CHI_Li_YuTang
+		portraits = {
+			army = {
+				large = GFX_portrait_Li_YuTang
+				small = GFX_portrait_Li_YuTang_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
 }

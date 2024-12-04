@@ -39,4 +39,28 @@ spriteTypes = {
 		name = "GFX_portrait_Wang_ZhongLian"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Wang_ZhongLian.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_Yu_XueZhong"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Yu_XueZhong.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Wu_QiWei"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Wu_QiWei.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Tang_ShiZun"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Tang_ShiZun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xia_ChuZhong"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Xia_ChuZhong.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xu_YuanQuan"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Xu_YuanQuan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Li_YuTang"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Li_YuTang.dds"
+	}
 }

@@ -1,4 +1,4 @@
-# 原版风格人物补充
+# HOI4 Style Character Supplement | 原版风格人物补充
 
 头像制作：**玉锵** https://steamcommunity.com/profiles/76561198970429456
 
@@ -197,6 +197,16 @@
 ## 2024.12.4
 
 1.补充CHI于学忠、CHI吴奇伟、CHI唐式遵、CHI夏楚中、CHI徐源泉、CHI李玉堂
+
+## 2024.12.6
+
+1.调整XSM马彪头像
+
+2.补充SIK尧乐博斯、CHI萧毅肃头像
+
+3.补充CHI余程万、CHI汤恩伯、CHI王陵基、CHI黄维
+
+4.移除CHI张治中军事理论家内阁
 
 # 感谢：
 

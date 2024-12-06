@@ -58,8 +58,8 @@
 				name = CHI_xiao_yisu
 				portraits = {
 					army = {
-						large = ""
-						small = ""
+						large = GFX_portrait_Xiao_YiSu
+						small = GFX_portrait_Xiao_YiSu_small
 					}
 				}
 				advisor = {
@@ -77,10 +77,15 @@
 					}
 				}
 				corps_commander = {
+					traits = {
+						harsh_leader
+						career_officer
+						skilled_staffer
+					}
 					skill = 2
 					attack_skill = 2
-					defense_skill = 2
-					planning_skill = 2
+					defense_skill = 3
+					planning_skill = 3
 					logistics_skill = 2
 					legacy_id = -1
 				}
@@ -218,8 +223,8 @@
 				name = CHI_xiao_yisu
 				portraits = {
 					army = {
-						large = ""
-						small = ""
+						large = GFX_portrait_Xiao_YiSu
+						small = GFX_portrait_Xiao_YiSu_small
 					}
 				}
 				advisor = {
@@ -238,10 +243,15 @@
 					}
 				}
 				corps_commander = {
+					traits = {
+						harsh_leader
+						career_officer
+						skilled_staffer
+					}
 					skill = 2
 					attack_skill = 2
-					defense_skill = 2
-					planning_skill = 2
+					defense_skill = 3
+					planning_skill = 3
 					logistics_skill = 2
 					legacy_id = -1
 				}
@@ -337,6 +347,10 @@
 			recruit_character = CHI_Xia_ChuZhong
 			recruit_character = CHI_Xu_YuanQuan
 			recruit_character = CHI_Li_YuTang
+			recruit_character = CHI_Yu_ChengWan
+			recruit_character = CHI_Tang_EnBo
+			recruit_character = CHI_Wang_LingJi
+			recruit_character = CHI_Huang_Wei
 		}
 	}
 	PRC = {

@@ -478,28 +478,13 @@ characters = {
 			legacy_id = -1
 		}
 		advisor = {
-			slot = theorist
-			ledger = army
+			slot = political_advisor
 			idea_token = CHI_Zhang_ZhiZhong
 			allowed = {
 				original_tag = CHI
 			}
 			traits = {
-				military_theorist
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		advisor = {
-			slot = education_reformer
-			idea_token = CHI_Zhang_ZhiZhong
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				war_industrialist
+				education_reformer
 			}
 		}
 	}
@@ -933,6 +918,87 @@ characters = {
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Yu_ChengWan = {
+		name = CHI_Yu_ChengWan
+		portraits = {
+			army = {
+				large = GFX_portrait_Yu_ChengWan
+				small = GFX_portrait_Yu_ChengWan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				harsh_leader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Tang_EnBo = {
+		name = CHI_Tang_EnBo
+		portraits = {
+			army = {
+				large = GFX_portrait_Tang_EnBo
+				small = GFX_portrait_Tang_EnBo_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Wang_LingJi = {
+		name = CHI_Wang_LingJi
+		portraits = {
+			army = {
+				large = GFX_portrait_Wang_LingJi
+				small = GFX_portrait_Wang_LingJi_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Huang_Wei = {
+		name = CHI_Huang_Wei
+		portraits = {
+			army = {
+				large = GFX_portrait_Huang_Wei
+				small = GFX_portrait_Huang_Wei_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = -1
 		}

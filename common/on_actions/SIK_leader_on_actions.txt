@@ -18,8 +18,8 @@ on_actions = {
 				SIK_yol_bars = {
 					set_portraits = {
 						army = {
-							large = GFX_portrait_YaoLeBoSi
-							small = GFX_portrait_YaoLeBoSi_small
+							large = GFX_portrait_Yol_Bars
+							small = GFX_portrait_Yol_Bars_small
 						}
 					}
 					add_corps_commander_role = {

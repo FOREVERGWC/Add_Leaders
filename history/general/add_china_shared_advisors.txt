@@ -281,9 +281,6 @@
 							has_global_flag = falkenhausen_recalled
 						}
 					}
-					allowed = {
-						has_government = communism
-					}
 					traits = {
 						army_chief_offensive_2
 					}

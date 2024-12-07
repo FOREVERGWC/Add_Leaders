@@ -281,6 +281,9 @@
 							has_global_flag = falkenhausen_recalled
 						}
 					}
+					allowed = {
+						has_government = communism
+					}
 					traits = {
 						army_chief_offensive_2
 					}
@@ -872,11 +875,6 @@
 						slot = political_advisor
 						cost = 150
 						idea_token = PRC_lin_biao
-						available = {
-							NOT = {
-								has_idea = PRC_zhu_de
-							}
-						}
 						traits = {
 							BEL_minister_of_national_defence_deveze
 						}
@@ -911,11 +909,6 @@
 						slot = political_advisor
 						cost = 150
 						idea_token = PRC_zhu_de
-						available = {
-							NOT = {
-								has_idea = PRC_lin_biao
-							}
-						}
 						traits = {
 							AUS_communist_revolutionary
 						}

@@ -529,4 +529,445 @@ characters = {
 			}
 		}
 	}
+	PRC_Qiao_GuanHua = {
+		name = PRC_Qiao_GuanHua
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Qiao_GuanHua_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Qiao_GuanHua
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				JUNO_minister_of_foreign_affairs
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Xi_ZhongXun = {
+		name = PRC_Xi_ZhongXun
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Xi_ZhongXun_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Xi_ZhongXun
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				NOR_commisary_minister
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Ye_JiZhuang = {
+		name = PRC_Ye_JiZhuang
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Ye_JiZhuang_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Ye_JiZhuang
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				JUNO_minister_trade_development
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Wu_YaoZong = {
+		name = PRC_Wu_YaoZong
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Wu_YaoZong_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Wu_YaoZong
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				GER_reich_minister_of_church_affairs
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Kang_KeQing = {
+		name = PRC_Kang_KeQing
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Kang_KeQing_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Kang_KeQing
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				NOR_the_womens_front
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Zhang_WenTian = {
+		name = PRC_Zhang_WenTian
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Zhang_WenTian_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Zhang_WenTian
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				communist_theorist
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Zhang_DingCheng = {
+		name = PRC_Zhang_DingCheng
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Zhang_DingCheng_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Zhang_DingCheng
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				SWE_minister_of_justice
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Li_ShuCheng = {
+		name = PRC_Li_ShuCheng
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Li_ShuCheng_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Li_ShuCheng
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				SWE_minister_of_agriculture
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Li_YunHe = {
+		name = PRC_Li_YunHe
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Li_YunHe_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Li_YunHe
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				GER_film_director
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Li_KeNong = {
+		name = PRC_Li_KeNong
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Li_KeNong_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Li_KeNong
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				GER_reich_security_main_office_director_lar
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Li_FuChun = {
+		name = PRC_Li_FuChun
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Li_FuChun_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Li_FuChun
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				peoples_commisar_of_heavy_industries
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Li_DeQuan = {
+		name = PRC_Li_DeQuan
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Li_DeQuan_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Li_DeQuan
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				JUNO_minister_of_public_health
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Li_Da = {
+		name = PRC_Li_Da
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Li_Da_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Li_Da
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				marxist_philosopher
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Liang_Bin = {
+		name = PRC_Liang_Bin
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Liang_Bin_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Liang_Bin
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				socialist_novelist
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Qu_DuYi = {
+		name = PRC_Qu_DuYi
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Qu_DuYi_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Qu_DuYi
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				socialist_journalist
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Zhang_BoJun = {
+		name = PRC_Zhang_BoJun
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Zhang_BoJun_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Zhang_BoJun
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				BRA_minister_of_transport
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Mao_Dun = {
+		name = PRC_Mao_Dun
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Mao_Dun_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Mao_Dun
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				JUNO_revolutionary_writer
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Rong_YiRen = {
+		name = PRC_Rong_YiRen
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Rong_YiRen_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Rong_YiRen
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				intellectual_evolue_entrepreneur
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Guo_MoRuo = {
+		name = PRC_Guo_MoRuo
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Guo_MoRuo_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Guo_MoRuo
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				revolutionary_poet
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Han_ZhenJi = {
+		name = PRC_Han_ZhenJi
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Han_ZhenJi_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Han_ZhenJi
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				BEL_arms_designer
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	PRC_Ma_XuLun = {
+		name = PRC_Ma_XuLun
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Ma_XuLun_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRC_Ma_XuLun
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				minister_of_ecclesiastical_affairs
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 }

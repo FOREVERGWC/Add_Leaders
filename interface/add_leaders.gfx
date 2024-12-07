@@ -338,6 +338,78 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_Chen_ShaoKuan.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_CHI_Cai_YuanPei"
+		texturefile = "gfx/interface/ideas/idea_generic_Cai_YuanPei.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Chen_LiFu"
+		texturefile = "gfx/interface/ideas/idea_generic_Chen_LiFu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Fei_Mu"
+		texturefile = "gfx/interface/ideas/idea_generic_Fei_Mu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Li_ShiZheng"
+		texturefile = "gfx/interface/ideas/idea_generic_Li_ShiZheng.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Jiang_MengLin"
+		texturefile = "gfx/interface/ideas/idea_generic_Jiang_MengLin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Liu_HongSheng"
+		texturefile = "gfx/interface/ideas/idea_generic_Liu_HongSheng.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Lu_ZuoFu"
+		texturefile = "gfx/interface/ideas/idea_generic_Lu_ZuoFu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Mao_RenFeng"
+		texturefile = "gfx/interface/ideas/idea_generic_Mao_RenFeng.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Qian_XinZhi"
+		texturefile = "gfx/interface/ideas/idea_generic_Qian_XinZhi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Sun_Ke"
+		texturefile = "gfx/interface/ideas/idea_generic_Sun_Ke.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Wang_ChongHui"
+		texturefile = "gfx/interface/ideas/idea_generic_Wang_ChongHui.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Wang_ZhengTing"
+		texturefile = "gfx/interface/ideas/idea_generic_Wang_ZhengTing.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Wu_ZhiHui"
+		texturefile = "gfx/interface/ideas/idea_generic_Wu_ZhiHui.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Xue_DuBi"
+		texturefile = "gfx/interface/ideas/idea_generic_Xue_DuBi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Yu_HongJun"
+		texturefile = "gfx/interface/ideas/idea_generic_Yu_HongJun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Ceng_YangFu"
+		texturefile = "gfx/interface/ideas/idea_generic_Ceng_YangFu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Zhang_JingJiang"
+		texturefile = "gfx/interface/ideas/idea_generic_Zhang_JingJiang.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_Zuo_ShunSheng"
+		texturefile = "gfx/interface/ideas/idea_generic_Zuo_ShunSheng.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_Bai_ChongXi_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Bai_ChongXi.dds"
 	}
@@ -446,6 +518,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_Chen_JiTang.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_CHI_Zhou_ZhiRou_plus_small"
+		texturefile = "gfx/interface/ideas/idea_generic_Zhou_ZhiRou.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_tu_yuming_small"
+		texturefile = "gfx/interface/ideas/idea_generic_tu_yuming.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_wang_yaowu_small"
+		texturefile = "gfx/interface/ideas/idea_generic_Wang_YaoWu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_hsueh_yueh_small"
+		texturefile = "gfx/interface/ideas/idea_generic_Xue_Yue.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_Huang_ShaoHong_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Huang_ShaoHong.dds"
 	}
@@ -466,16 +554,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_Shang_Zhen.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Shang_Zhen_2_small"
-		texturefile = "gfx/interface/ideas/idea_generic_Shang_Zhen_2.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Zhang_ZhiZhong_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Zhang_ZhiZhong.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Zhang_ZhiZhong_2_small"
-		texturefile = "gfx/interface/ideas/idea_generic_Zhang_ZhiZhong_2.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Luo_ZhuoYing_small"

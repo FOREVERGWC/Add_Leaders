@@ -64,6 +64,8 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				mine_layer
+				mine_craft
 			}
 			skill = 1
 			attack_skill = 1
@@ -83,6 +85,8 @@ characters = {
 		}
 		navy_leader = {
 			traits = {
+				old_guard_navy
+				gunnery_expert
 			}
 			skill = 1
 			attack_skill = 1
@@ -90,6 +94,47 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 			legacy_id = -1
+		}
+		advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = CHI_Sa_ZhenBing
+			ledger = navy
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				grand_fleet_proponent
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Sa_ZhenBing
+			ledger = navy
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_capital_ship_1
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = CHI_Sa_ZhenBing
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_chief_decisive_battle_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 0.2
+			}
 		}
 	}
 	CHI_Chen_JiLiang = {
@@ -382,6 +427,36 @@ characters = {
 			logistics_skill = 2
 			legacy_id = -1
 		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Zhang_FaKui
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = CHI_Zhang_FaKui
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	CHI_Sun_LianZhong = {
 		name = CHI_Sun_LianZhong
@@ -410,9 +485,6 @@ characters = {
 				large = GFX_portrait_Shang_Zhen
 				small = GFX_portrait_Shang_Zhen_small
 			}
-			civilian = {
-				small = GFX_portrait_Shang_Zhen_2_small
-			}
 		}
 		corps_commander = {
 			traits = {
@@ -427,30 +499,6 @@ characters = {
 			logistics_skill = 3
 			legacy_id = -1
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = CHI_Shang_Zhen
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				smooth_talking_charmer
-			}
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = CHI_Shang_Zhen
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				army_chief_reform_1
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 	CHI_Zhang_ZhiZhong = {
 		name = CHI_Zhang_ZhiZhong
@@ -458,9 +506,6 @@ characters = {
 			army = {
 				large = GFX_portrait_Zhang_ZhiZhong
 				small = GFX_portrait_Zhang_ZhiZhong_small
-			}
-			civilian = {
-				small = GFX_portrait_Zhang_ZhiZhong_2_small
 			}
 		}
 		corps_commander = {
@@ -476,16 +521,6 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = -1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = CHI_Zhang_ZhiZhong
-			allowed = {
-				original_tag = CHI
-			}
-			traits = {
-				education_reformer
-			}
 		}
 	}
 	CHI_Luo_ZhuoYing = {
@@ -1001,6 +1036,466 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = -1
+		}
+	}
+	CHI_Yang_Jie = {
+		name = CHI_Yang_Jie
+		portraits = {
+			army = {
+				large = GFX_portrait_Yang_Jie
+				small = GFX_portrait_Yang_Jie_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				bearer_of_artillery
+				infantry_officer
+				cavalry_officer
+				brilliant_strategist
+				skilled_staffer
+				thorough_planner
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = CHI_Yang_Jie
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CHI_Yang_Jie
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_planning_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Xu_TingYao = {
+		name = CHI_Xu_TingYao
+		portraits = {
+			army = {
+				large = GFX_portrait_Xu_TingYao
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Cai_YuanPei = {
+		name = CHI_Cai_YuanPei
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Cai_YuanPei
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Cai_YuanPei
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+				NOT = {
+					has_idea = CHI_Li_ShiZheng
+				}
+			}
+			traits = {
+				ARG_university_rector
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Chen_LiFu = {
+		name = CHI_Chen_LiFu
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Chen_LiFu
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Chen_LiFu
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				BRA_head_of_political_police
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Fei_Mu = {
+		name = CHI_Fei_Mu
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Fei_Mu
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Fei_Mu
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				GER_film_director
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Li_ShiZheng = {
+		name = CHI_Li_ShiZheng
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Li_ShiZheng
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Li_ShiZheng
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+				NOT = {
+					has_idea = CHI_Cai_YuanPei
+				}
+			}
+			traits = {
+				ARG_university_rector
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Jiang_MengLin = {
+		name = CHI_Jiang_MengLin
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Jiang_MengLin
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Jiang_MengLin
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				undervisningsminister
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Liu_HongSheng = {
+		name = CHI_Liu_HongSheng
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Liu_HongSheng
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Liu_HongSheng
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				intellectual_evolue_entrepreneur
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Lu_ZuoFu = {
+		name = CHI_Lu_ZuoFu
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Lu_ZuoFu
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Lu_ZuoFu
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				NOR_shipping_capitalist
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Mao_RenFeng = {
+		name = CHI_Mao_RenFeng
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Mao_RenFeng
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Mao_RenFeng
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				gran_carabinero
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Qian_XinZhi = {
+		name = CHI_Qian_XinZhi
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Qian_XinZhi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Qian_XinZhi
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				the_banker
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Sun_Ke = {
+		name = CHI_Sun_Ke
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Sun_Ke
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Sun_Ke
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				NOR_unionist_railway_director
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Wang_ChongHui = {
+		name = CHI_Wang_ChongHui
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Wang_ChongHui
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Wang_ChongHui
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				SWE_minister_of_justice
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Wang_ZhengTing = {
+		name = CHI_Wang_ZhengTing
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Wang_ZhengTing
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Wang_ZhengTing
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				BRA_distinguished_diplomat
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Wu_ZhiHui = {
+		name = CHI_Wu_ZhiHui
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Wu_ZhiHui
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Wu_ZhiHui
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				anti_communist_crusader
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Xue_DuBi = {
+		name = CHI_Xue_DuBi
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Xue_DuBi
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Xue_DuBi
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				JUNO_minister_of_public_health
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Yu_HongJun = {
+		name = CHI_Yu_HongJun
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Yu_HongJun
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Yu_HongJun
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				ICE_minister_of_finance_moller
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Ceng_YangFu = {
+		name = CHI_Ceng_YangFu
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Ceng_YangFu
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Ceng_YangFu
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				BRA_minister_of_transport
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Zhang_JingJiang = {
+		name = CHI_Zhang_JingJiang
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Zhang_JingJiang
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Zhang_JingJiang
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				old_figurehead
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHI_Zuo_ShunSheng = {
+		name = CHI_Zuo_ShunSheng
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_Zuo_ShunSheng
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Zuo_ShunSheng
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				landbrugsminister
+			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 }

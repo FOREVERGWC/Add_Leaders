@@ -87,4 +87,12 @@ spriteTypes = {
 		name = "GFX_portrait_Huang_Wei"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Huang_Wei.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_Yang_Jie"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Yang_Jie.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xu_TingYao"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Xu_TingYao.dds"
+	}
 }

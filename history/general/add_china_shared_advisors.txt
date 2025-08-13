@@ -377,6 +377,7 @@
 				name = CHI_tu_yuming
 				portraits = {
 					army = {
+						large = GFX_portrait_chi_du_yuming
 						small = GFX_portrait_CHI_tu_yuming_small
 					}
 				}
@@ -409,6 +410,20 @@
 						factor = 1
 					}
 				}
+				field_marshal = {
+					traits = {
+						trait_cautious
+						harsh_leader
+						armor_officer
+						defensive_doctrine
+					}
+					skill = 4
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 2
+					logistics_skill = 3
+					legacy_id = -1
+				}
 			}
 			retire_character = CHI_wang_yaowu
 			generate_character = {
@@ -416,6 +431,7 @@
 				name = CHI_wang_yaowu
 				portraits = {
 					army = {
+						large = GFX_portrait_chi_wang_yaowu
 						small = GFX_portrait_CHI_wang_yaowu_small
 					}
 				}
@@ -433,6 +449,19 @@
 						factor = 1
 					}
 				}
+				field_marshal = {
+					traits = {
+						trait_cautious
+						infantry_officer
+						defensive_doctrine
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 1
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
 			}
 			retire_character = CHI_hsueh_yueh
 			generate_character = {
@@ -440,6 +469,7 @@
 				name = CHI_hsueh_yueh
 				portraits = {
 					army = {
+						large = GFX_portrait_chi_xue_yue
 						small = GFX_portrait_CHI_hsueh_yueh_small
 					}
 				}
@@ -484,6 +514,20 @@
 					ai_will_do = {
 						factor = 1
 					}
+				}
+				field_marshal = {
+					traits = {
+						brilliant_strategist
+						trait_reckless
+						war_hero
+						offensive_doctrine
+					}
+					skill = 3
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 1
+					logistics_skill = 3
+					legacy_id = -1
 				}
 			}
 			retire_character = CHI_xiao_yisu
@@ -532,6 +576,9 @@
 				portraits = {
 					army = {
 						large = GFX_portrait_Chen_Cheng
+						small = GFX_portrait_Chen_Cheng_small
+					}
+					civilian = {
 						small = GFX_idea_CHI_chen_cheng
 					}
 				}

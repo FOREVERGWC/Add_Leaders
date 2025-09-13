@@ -1,10 +1,22 @@
-PRC_plus_category = {
+PRC_form_PLAN_category = {
 	allowed = {
 		original_tag = PRC
 	}
 	visible = {
 		NOT = {
 			has_country_flag = PRC_form_PLAN
+		}
+	}
+	icon = military_operation
+}
+
+PRC_august_1_medal_category = {
+	allowed = {
+		original_tag = PRC
+	}
+	visible = {
+		NOT = {
+			has_country_flag = PRC_august_1_medal
 		}
 	}
 	icon = military_operation

@@ -1,0 +1,142 @@
+characters = {
+	TST_Zhang_San = {
+		instance = {
+			allowed = {
+				NOT = {
+					has_dlc = "Graveyard of Empires"
+				}
+			}
+			name = TST_Zhang_San
+			portraits = {
+				army = {
+					large = GFX_portrait_Zhang_San
+					small = GFX_portrait_Zhang_San_small
+				}
+				civilian = {
+					small = GFX_portrait_Zhang_San_2_small
+				}
+			}
+			corps_commander = {
+				visible = {
+					has_country_flag = PRC_form_PLAN
+				}
+				traits = {
+					cavalry_leader
+				}
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			# advisor允许有多个
+			advisor = {
+				slot = high_command
+				ledger = army
+				cost = 50
+				idea_token = TST_Zhang_San
+				traits = {
+					air_naval_strike_2
+				}
+				allowed = {
+					original_tag = TST
+				}
+				available = {
+					has_country_flag = TST_form_PLAN
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+			advisor = {
+				slot = high_command
+				idea_token = TST_Zhang_San
+				ledger = army
+				allowed = {
+					original_tag = TST
+				}
+				traits = {
+					army_chief_reform_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1
+				}
+			}
+			# country_leader允许有多个
+			country_leader = {
+				ideology = despotism
+				expire = "1965.1.1.1"
+				id = -1
+			}
+			country_leader = {
+				ideology = stalinism
+				expire = "1944.1.1.1"
+				id = -1
+			}
+		}
+		instance = {
+			allowed = {
+				has_dlc = "Graveyard of Empires"
+			}
+			name = TST_Zhang_San
+			portraits = {
+				army = {
+					large = GFX_portrait_Zhang_San
+					small = GFX_portrait_Zhang_San_small
+				}
+			}
+			corps_commander = {
+				traits = {
+					desert_fox
+				}
+				skill = 4
+				attack_skill = 5
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+				legacy_id = -1
+			}
+		}
+	}
+	TST_Li_Si = {
+		name = TST_Li_Si
+		portraits = {
+			army = {
+				large = GFX_portrait_Li_Si
+				small = GFX_portrait_Li_Si_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				green_water_expert
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+	TST_Wang_Wu = {
+		name = TST_Wang_Wu
+		portraits = {
+			army = {
+				large = GFX_portrait_Wang_Wu
+				small = GFX_portrait_Wang_Wu_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+}

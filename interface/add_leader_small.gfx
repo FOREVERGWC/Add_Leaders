@@ -99,6 +99,7 @@ spriteTypes = {
 		name = "GFX_portrait_Chen_ShaoKuan_small"
 		texturefile = "gfx/interface/ideas/characters/CHI/idea_generic_Chen_ShaoKuan.dds"
 	}
+	# PRC
 	spriteType = {
 		name = "GFX_portrait_Qiao_GuanHua_small"
 		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Qiao_GuanHua.dds"
@@ -182,5 +183,86 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Ma_XuLun_small"
 		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Ma_XuLun.dds"
+	}
+	# 授勋
+	spriteType = {
+		name = "GFX_portrait_Liu_BoCheng_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Liu_BoCheng_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Ye_JianYing_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Ye_JianYing_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Peng_DeHuai_small_award"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Peng_DeHuai_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xu_XiangQian_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Xu_XiangQian_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Zhu_De_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Zhu_De_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Lin_Biao_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Lin_Biao_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Luo_RongHuan_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Luo_RongHuan_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Nie_RongZhen_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Nie_RongZhen_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_He_Long_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_He_Long_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Chen_Yi_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Chen_Yi_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Zhang_YunYi_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Zhang_YunYi_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xu_HaiDong_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Xu_HaiDong_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Wang_ShuSheng_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Wang_ShuSheng_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Su_Yu_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Su_Yu_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Luo_RuiQing_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Luo_RuiQing_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xiao_JinGuang_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Xiao_JinGuang_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xu_GuangDa_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Xu_GuangDa_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Tan_Zheng_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Tan_Zheng_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Chen_Geng_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Chen_Geng_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Huang_KeCheng_award_small"
+		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Huang_KeCheng_award.dds"
 	}
 }

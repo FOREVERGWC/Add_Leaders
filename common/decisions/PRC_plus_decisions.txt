@@ -1,4 +1,4 @@
-PRC_plus_category = {
+PRC_form_PLAN_category = {
 	PRC_form_PLAN = {
 		icon = generic_army_support
 		allowed = {
@@ -106,6 +106,273 @@ PRC_plus_category = {
 				has_navy_size = {
 					size > 1
 				}
+			}
+		}
+	}
+}
+
+PRC_august_1_medal_category = {
+	PRC_august_1_medal = {
+		icon = generic_army_support
+		allowed = {
+			original_tag = PRC
+		}
+		available = {
+			NOT = {
+				has_country_flag = PRC_august_1_medal
+			}
+			has_completed_focus = PRC_proclaim_the_peoples_republic
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = PRC_august_1_medal
+			PRC_liu_bocheng = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Liu_BoCheng_award
+						small = GFX_portrait_Liu_BoCheng_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Liu_BoCheng_award
+						small = GFX_portrait_Liu_BoCheng_award_small
+					}
+				}
+			}
+			PRC_ye_jianying = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Ye_JianYing_award
+						small = GFX_portrait_Ye_JianYing_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Ye_JianYing_award
+						small = GFX_portrait_Ye_JianYing_award_small
+					}
+				}
+			}
+			PRC_peng_dehuai = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Peng_DeHuai_award
+						small = GFX_portrait_Peng_DeHuai_small_award
+					}
+					civilian = {
+						large = GFX_portrait_Peng_DeHuai_award
+						small = GFX_portrait_Peng_DeHuai_small_award
+					}
+				}
+			}
+			PRC_xu_xiangqian = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Xu_XiangQian_award
+						small = GFX_portrait_Xu_XiangQian_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Xu_XiangQian_award
+						small = GFX_portrait_Xu_XiangQian_award_small
+					}
+				}
+			}
+			PRC_zhu_de = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Zhu_De_award
+						small = GFX_portrait_Zhu_De_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Zhu_De_award
+						small = GFX_portrait_Zhu_De_award_small
+					}
+				}
+			}
+			PRC_lin_biao = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Lin_Biao_award
+						small = GFX_portrait_Lin_Biao_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Lin_Biao_award
+						small = GFX_portrait_Lin_Biao_award_small
+					}
+				}
+			}
+			PRC_Luo_RongHuan_plus = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Luo_RongHuan_award
+						small = GFX_portrait_Luo_RongHuan_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Luo_RongHuan_award
+						small = GFX_portrait_Luo_RongHuan_award_small
+					}
+				}
+			}
+			PRC_nie_rongzhen = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Nie_RongZhen_award
+						small = GFX_portrait_Nie_RongZhen_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Nie_RongZhen_award
+						small = GFX_portrait_Nie_RongZhen_award_small
+					}
+				}
+			}
+			PRC_He_Long_plus = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_He_Long_award
+						small = GFX_portrait_He_Long_award_small
+					}
+					civilian = {
+						large = GFX_portrait_He_Long_award
+						small = GFX_portrait_He_Long_award_small
+					}
+				}
+			}
+			PRC_chen_yi = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Chen_Yi_award
+						small = GFX_portrait_Chen_Yi_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Chen_Yi_award
+						small = GFX_portrait_Chen_Yi_award_small
+					}
+				}
+			}
+			PRC_Zhang_YunYi_plus = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Zhang_YunYi_award
+						small = GFX_portrait_Zhang_YunYi_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Zhang_YunYi_award
+						small = GFX_portrait_Zhang_YunYi_award_small
+					}
+				}
+			}
+			PRC_Xu_HaiDong_plus = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Xu_HaiDong_award
+						small = GFX_portrait_Xu_HaiDong_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Xu_HaiDong_award
+						small = GFX_portrait_Xu_HaiDong_award_small
+					}
+				}
+			}
+			PRC_Wang_ShuSheng_plus = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Wang_ShuSheng_award
+						small = GFX_portrait_Wang_ShuSheng_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Wang_ShuSheng_award
+						small = GFX_portrait_Wang_ShuSheng_award_small
+					}
+				}
+			}
+			PRC_su_yu = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Su_Yu_award
+						small = GFX_portrait_Su_Yu_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Su_Yu_award
+						small = GFX_portrait_Su_Yu_award_small
+					}
+				}
+			}
+			PRC_luo_ruiqing = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Luo_RuiQing_award
+						small = GFX_portrait_Luo_RuiQing_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Luo_RuiQing_award
+						small = GFX_portrait_Luo_RuiQing_award_small
+					}
+				}
+			}
+			PRC_ziao_jingguang = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Xiao_JinGuang_award
+						small = GFX_portrait_Xiao_JinGuang_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Xiao_JinGuang_award
+						small = GFX_portrait_Xiao_JinGuang_award_small
+					}
+				}
+			}
+			PRC_Xu_GuangDa_plus = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Xu_GuangDa_award
+						small = GFX_portrait_Xu_GuangDa_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Xu_GuangDa_award
+						small = GFX_portrait_Xu_GuangDa_award_small
+					}
+				}
+			}
+			PRC_Tan_Zheng_plus = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Tan_Zheng_award
+						small = GFX_portrait_Tan_Zheng_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Tan_Zheng_award
+						small = GFX_portrait_Tan_Zheng_award_small
+					}
+				}
+			}
+			PRC_chen_geng = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Chen_Geng_award
+						small = GFX_portrait_Chen_Geng_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Chen_Geng_award
+						small = GFX_portrait_Chen_Geng_award_small
+					}
+				}
+			}
+			PRC_Huang_KeCheng_plus = {
+				set_portraits = {
+					army = {
+						large = GFX_portrait_Huang_KeCheng_award
+						small = GFX_portrait_Huang_KeCheng_award_small
+					}
+					civilian = {
+						large = GFX_portrait_Huang_KeCheng_award
+						small = GFX_portrait_Huang_KeCheng_award_small
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				has_completed_focus = PRC_proclaim_the_peoples_republic
 			}
 		}
 	}

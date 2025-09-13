@@ -95,4 +95,86 @@ spriteTypes = {
 		name = "GFX_portrait_Xu_TingYao"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Xu_TingYao.dds"
 	}
+	# PRC
+	# 授勋
+	spriteType = {
+		name = "GFX_portrait_Liu_BoCheng_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Liu_BoCheng_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Ye_JianYing_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Ye_JianYing_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Peng_DeHuai_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Peng_DeHuai_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xu_XiangQian_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Xu_XiangQian_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Zhu_De_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Zhu_De_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Lin_Biao_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Lin_Biao_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Luo_RongHuan_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Luo_RongHuan_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Nie_RongZhen_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Nie_RongZhen_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_He_Long_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_He_Long_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Chen_Yi_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Chen_Yi_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Zhang_YunYi_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Zhang_YunYi_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xu_HaiDong_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Xu_HaiDong_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Wang_ShuSheng_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Wang_ShuSheng_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Su_Yu_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Su_Yu_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Luo_RuiQing_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Luo_RuiQing_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xiao_JinGuang_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Xiao_JinGuang_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xu_GuangDa_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Xu_GuangDa_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Tan_Zheng_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Tan_Zheng_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Chen_Geng_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Chen_Geng_award.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Huang_KeCheng_award"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Huang_KeCheng_award.dds"
+	}
 }

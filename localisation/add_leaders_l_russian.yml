@@ -29,7 +29,6 @@
  CHI_Song_XiLian:0 "Сон Хи Ён"
  CHI_Guan_LinZheng:0 "Гуаньлиньчжэн"
  CHI_Sun_WeiRu:0 "Сунь Вэйру"
- CHI_Zhu_ShaoLiang:0 "Чжу Шаолян"
  CHI_Li_MoAn:0 "Ли Мён Ань"
  CHI_Huang_Jie:0 "Хуан Цзе"
  CHI_He_ChengJun:0 "Какой Чэнцзюнь"
@@ -68,6 +67,7 @@
  CHI_Ceng_YangFu:0 "Ceng YangFu"
  CHI_Zhang_JingJiang:0 "Zhang JingJiang"
  CHI_Zuo_ShunSheng:0 "Zuo ShunSheng"
+ CHI_Yang_HuCheng:0 "Yang HuCheng"
  # PRC
  PRC_Bo_Gu:0 "Богу"
  PRC_Zhu_De_plus:0 "Чжу Дэ"
@@ -90,7 +90,6 @@
  PRC_Ma_ZhongQuan:0 "Ма Чжунцюань"
  PRC_Liu_HuaQing:0 "Лю Хуацин"
  PRC_Liu_ChangYi:0 "Лю Чанъи"
- PRC_Chang_QianKun:0 "Чан Цянь - кунь"
  PRC_Xiao_Hua:0 "Сяо Хуа"
  PRC_Cao_XiangRen:0 "Цао Сянжэнь"
  PRC_Chen_ZhengRen:0 "Чэнь Чжэнжэнь"

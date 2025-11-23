@@ -1,12 +1,12 @@
 spriteTypes = {
-	# CHI
+	# CHI 
+	spriteType = {
+		name = "GFX_portrait_Yang_HuCheng"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_Yang_HuCheng.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_Zhang_GuoTao"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Zhang_GuoTao.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Bai_ChongXi"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Bai_ChongXi.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Chen_ShaoKuan"
@@ -33,14 +33,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Wang_JingGuo.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Chen_Cheng"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Chen_Cheng.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Chen_Ce"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Chen_Ce.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Deng_ZhaoXiang"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Deng_ZhaoXiang.dds"
 	}
@@ -53,28 +45,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Chen_JiLiang.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ma_HongKui"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Ma_HongKui.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Ma_Lu"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Ma_Lu.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ma_BuQing"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Ma_BuQing.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Ma_HongBin"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Ma_HongBin.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Ma_Biao"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Ma_Biao.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Lu_Han"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Lu_Han.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Sun_Du"
@@ -117,24 +93,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Jiang_GuangNai.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Yu_HanMou"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Yu_HanMou.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Chen_JiTang_plus"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Chen_JiTang.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Huang_ShaoHong"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Huang_ShaoHong.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Cheng_Qian"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Cheng_Qian.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Zhang_FaKui"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Zhang_FaKui.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Sun_LianZhong"
@@ -151,10 +115,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Luo_ZhuoYing"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Luo_ZhuoYing.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Wan_FuLin"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Wan_FuLin.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Li_JiShen"
@@ -174,48 +134,8 @@ spriteTypes = {
 	}
 	# PRC
 	spriteType = {
-		name = "GFX_portrait_Chen_Geng"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Chen_Geng.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Liu_BoCheng"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Liu_BoCheng.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Xiao_JinGuang"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Xiao_JinGuang.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Xiao_JinGuang2"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Xiao_JinGuang2.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Xu_XiangQian"
 		texturefile = "gfx/leaders/PRC/portrait_PRC_Xu_XiangQian.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Nie_RongZhen"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Nie_RongZhen.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Su_Yu"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Su_Yu.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Ye_JianYing"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Ye_JianYing.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_He_Long"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_He_Long.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Luo_RongHuan"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Luo_RongHuan.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Zuo_Quan"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Zuo_Quan.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Deng_XiaoPing"
@@ -240,18 +160,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Xu_HaiDong"
 		texturefile = "gfx/leaders/PRC/portrait_PRC_Xu_HaiDong.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Zhang_YunYi"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Zhang_YunYi.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Luo_RuiQing"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Luo_RuiQing.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Lin_Biao"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Lin_Biao.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Zhou_XiHan"
@@ -281,14 +189,6 @@ spriteTypes = {
 		name = "GFX_portrait_Zhu_De"
 		texturefile = "gfx/leaders/PRC/portrait_PRC_Zhu_De.dds"
 	}
-	spriteType = {
-		name = "GFX_portrait_Peng_DeHuai"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Peng_DeHuai.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Chen_Yi"
-		texturefile = "gfx/leaders/PRC/portrait_PRC_Chen_Yi.dds"
-	}
 	# MAN
 	spriteType = {
 		name = "GFX_portrait_Ji_Xing"
@@ -303,10 +203,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAN/portrait_MAN_Yu_ChenCheng.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Yu_ZhiShan"
-		texturefile = "gfx/leaders/MAN/portrait_MAN_Yu_ZhiShan.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Cheng_ZhiYuan"
 		texturefile = "gfx/leaders/MAN/portrait_MAN_Cheng_ZhiYuan.dds"
 	}
@@ -315,10 +211,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAN/portrait_MAN_Wang_ZhiYou.dds"
 	}
 	# SOV
-	spriteType = {
-		name = "GFX_portrait_andrei_alexandrovich_zhdanov"
-		texturefile = "gfx/leaders/SOV/portrait_SOV_andrei_alexandrovich_zhdanov.dds"
-	}
 	spriteType = {
 		name = "GFX_portrait_lazar_kaganovich"
 		texturefile = "gfx/leaders/SOV/portrait_SOV_lazar_kaganovich.dds"
@@ -446,16 +338,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_Chen_JiLiang.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Ma_HongKui_small"
-		texturefile = "gfx/interface/ideas/idea_generic_Ma_HongKui.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Ma_Lu_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Ma_Lu.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Ma_BuQing_small"
-		texturefile = "gfx/interface/ideas/idea_generic_Ma_BuQing.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Ma_HongBin_small"
@@ -522,10 +406,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_tu_yuming.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_CHI_wang_yaowu_small"
-		texturefile = "gfx/interface/ideas/idea_generic_Wang_YaoWu.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_CHI_hsueh_yueh_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Xue_Yue.dds"
 	}
@@ -544,10 +424,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Sun_LianZhong_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Sun_LianZhong.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Shang_Zhen_small"
-		texturefile = "gfx/interface/ideas/idea_generic_Shang_Zhen.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_Zhang_ZhiZhong_small"
@@ -578,14 +454,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_Guan_LinZheng.dds"
 	}
 	# PRC
-	spriteType = {
-		name = "GFX_portrait_Xiao_JinGuang_small"
-		texturefile = "gfx/interface/ideas/idea_generic_Xiao_JinGuang.dds"
-	}
-	spriteType = {
-		name = "GFX_portrait_Xiao_JinGuang2_small"
-		texturefile = "gfx/interface/ideas/idea_generic_Xiao_JinGuang2.dds"
-	}
 	spriteType = {
 		name = "GFX_portrait_Nie_RongZhen_small"
 		texturefile = "gfx/interface/ideas/idea_generic_Nie_RongZhen.dds"

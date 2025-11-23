@@ -1,0 +1,22 @@
+########################################################################################################################
+########################################################################################################################
+########################################################################################################################
+ziyong_buliesite_yaosai_dynamic_modifier = {
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+		NOT = {
+			controls_province = 3392
+		}
+	}
+	icon = GFX_modifiers_generic_military_plans
+	pocket_penalty = -0.5
+	local_supplies = 0.5
+	army_defence_factor = 0.3
+	army_morale_factor = 0.5
+	out_of_supply_factor = -0.85
+	supply_consumption_factor = -0.5
+	dig_in_speed_factor = 0.5
+	max_dig_in_factor = 0.3
+}

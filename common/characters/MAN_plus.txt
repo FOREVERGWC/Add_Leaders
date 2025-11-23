@@ -10,11 +10,11 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = -1
 		}
 	}
@@ -29,11 +29,11 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = -1
 		}
 	}
@@ -49,11 +49,11 @@ characters = {
 			traits = {
 				cavalry_leader
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = -1
 		}
 		advisor = {
@@ -68,26 +68,6 @@ characters = {
 			ai_will_do = {
 				factor = 1
 			}
-		}
-	}
-	MAN_Yu_ZhiShan = {
-		name = MAN_Yu_ZhiShan
-		portraits = {
-			army = {
-				large = GFX_portrait_Yu_ZhiShan
-				small = GFX_portrait_Yu_ZhiShan_small
-			}
-		}
-		corps_commander = {
-			traits = {
-				infantry_officer
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
 		}
 	}
 	MAN_Lin_Qi = {
@@ -174,27 +154,6 @@ characters = {
 			}
 		}
 	}
-	MAN_Zang_ShiYi = {
-		name = MAN_Zang_ShiYi
-		portraits = {
-			civilian = {
-				small = GFX_portrait_Zang_ShiYi_small
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = MAN_Zang_ShiYi
-			allowed = {
-				original_tag = MAN
-			}
-			traits = {
-				compassionate_gentleman
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
 	MAN_Zhao_XinBo = {
 		name = MAN_Zhao_XinBo
 		portraits = {
@@ -228,11 +187,11 @@ characters = {
 			traits = {
 				cavalry_officer
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = -1
 		}
 	}
@@ -247,11 +206,11 @@ characters = {
 		corps_commander = {
 			traits = {
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = -1
 		}
 	}

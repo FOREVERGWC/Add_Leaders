@@ -16,26 +16,6 @@ PRC_form_PLAN_category = {
 		fire_only_once = yes
 		complete_effect = {
 			set_country_flag = PRC_form_PLAN
-			PRC_ziao_jingguang = {
-				remove_unit_leader_role = yes
-				set_portraits = {
-					army = {
-						large = GFX_portrait_Xiao_JinGuang2
-						small = GFX_portrait_Xiao_JinGuang2_small
-					}
-				}
-				add_naval_commander_role = {
-					character = PRC_ziao_jingguang
-					traits = {
-						spotter
-					}
-					skill = 3
-					attack_skill = 3
-					defense_skill = 3
-					planning_skill = 3
-					logistics_skill = 3
-				}
-			}
 			effect_tooltip = {
 				add_naval_commander_role = {
 					character = PRC_Zhou_XiHan
@@ -121,7 +101,7 @@ PRC_august_1_medal_category = {
 			NOT = {
 				has_country_flag = PRC_august_1_medal
 			}
-			has_completed_focus = PRC_proclaim_the_peoples_republic
+			has_completed_focus = PRC_the_peoples_republic
 		}
 		cost = 25
 		fire_only_once = yes
@@ -199,7 +179,7 @@ PRC_august_1_medal_category = {
 					}
 				}
 			}
-			PRC_Luo_RongHuan_plus = {
+			PRC_luo_ronghuan = {
 				set_portraits = {
 					army = {
 						large = GFX_portrait_Luo_RongHuan_award
@@ -223,7 +203,7 @@ PRC_august_1_medal_category = {
 					}
 				}
 			}
-			PRC_He_Long_plus = {
+			PRC_he_long = {
 				set_portraits = {
 					army = {
 						large = GFX_portrait_He_Long_award
@@ -247,7 +227,7 @@ PRC_august_1_medal_category = {
 					}
 				}
 			}
-			PRC_Zhang_YunYi_plus = {
+			PRC_zhang_yunyi = {
 				set_portraits = {
 					army = {
 						large = GFX_portrait_Zhang_YunYi_award

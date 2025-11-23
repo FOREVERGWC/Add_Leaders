@@ -92,10 +92,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/characters/CHI/idea_generic_Yang_Jie.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Chen_Cheng_small"
-		texturefile = "gfx/interface/ideas/characters/CHI/idea_generic_Chen_Cheng.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Chen_ShaoKuan_small"
 		texturefile = "gfx/interface/ideas/characters/CHI/idea_generic_Chen_ShaoKuan.dds"
 	}

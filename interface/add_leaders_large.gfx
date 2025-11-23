@@ -4,10 +4,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Sun_WeiRu.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_Zhu_ShaoLiang"
-		texturefile = "gfx/leaders/CHI/portrait_CHI_Zhu_ShaoLiang.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_Li_MoAn"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Li_MoAn.dds"
 	}

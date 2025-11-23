@@ -29,7 +29,6 @@
  CHI_Song_XiLian:0 "Song XiLian"
  CHI_Guan_LinZheng:0 "Guan LinZheng"
  CHI_Sun_WeiRu:0 "Sun WeiRu"
- CHI_Zhu_ShaoLiang:0 "Zhu ShaoLiang"
  CHI_Li_MoAn:0 "Li MoAn"
  CHI_Huang_Jie:0 "Huang Jie"
  CHI_He_ChengJun:0 "He ChengJun"
@@ -68,6 +67,7 @@
  CHI_Ceng_YangFu:0 "Ceng YangFu"
  CHI_Zhang_JingJiang:0 "Zhang JingJiang"
  CHI_Zuo_ShunSheng:0 "Zuo ShunSheng"
+ CHI_Yang_HuCheng:0 "Yang HuCheng"
  # PRC
  PRC_Bo_Gu:0 "Bo Gu"
  PRC_Zhu_De_plus:0 "Zhu De"
@@ -90,7 +90,6 @@
  PRC_Ma_ZhongQuan:0 "Ma ZhongQuan"
  PRC_Liu_HuaQing:0 "Liu HuaQing"
  PRC_Liu_ChangYi:0 "Liu ChangYi"
- PRC_Chang_QianKun:0 "Chang QianKun"
  PRC_Xiao_Hua:0 "Xiao Hua"
  PRC_Cao_XiangRen:0 "Cao XiangRen"
  PRC_Chen_ZhengRen:0 "Chen ZhengRen"

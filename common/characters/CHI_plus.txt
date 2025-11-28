@@ -1,4 +1,153 @@
 characters = {
+	CHI_Deng_LongGuang = {
+		name = CHI_Deng_LongGuang
+		portraits = {
+			army = {
+				large = GFX_portrait_Deng_GuangLong
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Zhang_KeXia = {
+		name = CHI_Zhang_KeXia
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhang_KeXia
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+				CHI_dubious_loyalty
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Cao_FuLin = {
+		name = CHI_Cao_FuLin
+		portraits = {
+			army = {
+				large = GFX_portrait_Cao_FuLin
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Gu_LiangMin = {
+		name = CHI_Gu_LiangMin
+		portraits = {
+			army = {
+				large = GFX_portrait_Gu_LiangMin
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Xiang_HanPing = {
+		name = CHI_Xiang_HanPing
+		portraits = {
+			army = {
+				large = GFX_portrait_Xiang_HanPing
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Zhao_ShouShan = {
+		name = CHI_Zhao_ShouShan
+		portraits = {
+			army = {
+				large = GFX_portrait_Zhao_ShouShan
+			}
+		}
+		corps_commander = {
+			traits = {
+				skilled_staffer
+				trait_engineer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Wang_YiZhe = {
+		name = CHI_Wang_YiZhe
+		portraits = {
+			army = {
+				large = GFX_portrait_Wang_YiZhe
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				unyielding_defender
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Deng_XiHou = {
+		name = CHI_Deng_XiHou
+		portraits = {
+			army = {
+				large = GFX_portrait_Deng_XiHou
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				harsh_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
 	CHI_Yang_HuCheng = {
 		name = CHI_Yang_HuCheng
 		portraits = {
@@ -13,8 +162,8 @@ characters = {
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id = -1
 		}
 	}
@@ -39,7 +188,7 @@ characters = {
 		}
 	}
 	CHI_Zhang_ZiZhong = {
-		name = CHI_Zhang_ZiZhong
+		name = HBC_zhang_zizhong
 		portraits = {
 			army = {
 				large = GFX_portrait_Zhang_ZiZhong
@@ -47,11 +196,14 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
+			traits = {
+				media_personality
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	CHI_Deng_ZhaoXiang = {
@@ -212,7 +364,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = {
-				CHI_dubious_loyalty
+				YUN_dubious_loyalty
 			}
 			skill = 1
 			attack_skill = 2
@@ -233,7 +385,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				career_officer
-				CHI_dubious_loyalty
+				YUN_dubious_loyalty
 			}
 			skill = 2
 			attack_skill = 2
@@ -661,7 +813,7 @@ characters = {
 		}
 	}
 	CHI_Feng_ZhiAn = {
-		name = CHI_Feng_ZhiAn
+		name = HBC_feng_zhian
 		portraits = {
 			army = {
 				large = GFX_portrait_Feng_ZhiAn

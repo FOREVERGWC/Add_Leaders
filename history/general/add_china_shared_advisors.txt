@@ -174,7 +174,6 @@
 				}
 			}
 			recruit_character = CHI_Shen_HongLie
-			recruit_character = CHI_Zhang_ZiZhong
 			recruit_character = CHI_Deng_ZhaoXiang
 			recruit_character = CHI_Sa_ZhenBing
 			recruit_character = CHI_Chen_JiLiang
@@ -189,7 +188,6 @@
 			recruit_character = CHI_Li_MoAn
 			recruit_character = CHI_Huang_Jie
 			recruit_character = CHI_He_ChengJun
-			recruit_character = CHI_Feng_ZhiAn
 			recruit_character = CHI_Liu_Zhi
 			recruit_character = CHI_Xia_Wei
 			recruit_character = CHI_Wang_ZhongLian
@@ -200,7 +198,6 @@
 			recruit_character = CHI_Li_YuTang
 			recruit_character = CHI_Yu_ChengWan
 			recruit_character = CHI_Tang_EnBo
-			recruit_character = CHI_Wang_LingJi
 			recruit_character = CHI_Huang_Wei
 			recruit_character = CHI_Yang_Jie
 			recruit_character = CHI_Xu_TingYao
@@ -224,10 +221,29 @@
 			recruit_character = CHI_Zuo_ShunSheng
 		}
 	}
+	GDC = {
+		recruit_character = CHI_Xiang_HanPing
+		recruit_character = CHI_Deng_LongGuang
+	}
 	XIC = {
 		recruit_character = CHI_Yu_XueZhong
 		recruit_character = CHI_He_ZhuGuo
 		recruit_character = CHI_Yang_HuCheng
+		recruit_character = CHI_Zhao_ShouShan
+		recruit_character = CHI_Wang_YiZhe
+	}
+	HBC = {
+		recruit_character = CHI_Feng_ZhiAn
+		recruit_character = CHI_Zhang_ZiZhong
+		recruit_character = CHI_Zhang_KeXia
+	}
+	SND = {
+		recruit_character = CHI_Gu_LiangMin
+		recruit_character = CHI_Cao_FuLin
+	}
+	SIC = {
+		recruit_character = CHI_Wang_LingJi
+		recruit_character = CHI_Deng_XiHou
 	}
 	PRC = {
 		# 适配56之路

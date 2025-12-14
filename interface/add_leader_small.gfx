@@ -261,4 +261,69 @@ spriteTypes = {
 		name = "GFX_portrait_Huang_KeCheng_award_small"
 		texturefile = "gfx/interface/ideas/characters/PRC/idea_generic_Huang_KeCheng_award.dds"
 	}
+	# MAN
+	spriteType = {
+		name = "GFX_portrait_Ding_Mo_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Ding_Mo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Ren_YuanDao_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Ren_YuanDao.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Fu_XiaoAn_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Fu_XiaoAn.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Liu_Pei_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Liu_Pei.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Cui_PeiDe_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Cui_PeiDe.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Pang_BingXun_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Pang_BingXun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Li_ShiQun_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Li_ShiQun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Yang_KuiYi_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Yang_KuiYi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Lin_BaiSheng_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Lin_BaiSheng.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Mei_SiPing_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Mei_SiPing.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Shen_ZhenGang_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Shen_ZhenGang.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Luo_JunQiang_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Luo_JunQiang.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Chen_Qun_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Chen_Qun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Bao_WenYue_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Bao_WenYue.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Huang_DaWei_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Huang_DaWei.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Qi_XieYuan_small"
+		texturefile = "gfx/interface/ideas/characters/MAN/idea_generic_Qi_XieYuan.dds"
+	}
 }

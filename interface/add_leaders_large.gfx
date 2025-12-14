@@ -173,4 +173,37 @@ spriteTypes = {
 		name = "GFX_portrait_Huang_KeCheng_award"
 		texturefile = "gfx/leaders/PRC/portrait_PRC_Huang_KeCheng_award.dds"
 	}
+	# MAN
+	spriteType = {
+		name = "GFX_portrait_Ren_YuanDao"
+		texturefile = "gfx/leaders/MAN/portrait_MAN_Ren_YuanDao.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Liu_Pei"
+		texturefile = "gfx/leaders/MAN/portrait_MAN_Liu_Pei.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Cui_PeiDe"
+		texturefile = "gfx/leaders/MAN/portrait_MAN_Cui_PeiDe.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Pang_BingXun"
+		texturefile = "gfx/leaders/MAN/portrait_MAN_Pang_BingXun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Yang_KuiYi"
+		texturefile = "gfx/leaders/MAN/portrait_MAN_Yang_KuiYi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Bao_WenYue"
+		texturefile = "gfx/leaders/MAN/portrait_MAN_Bao_WenYue.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Huang_DaWei"
+		texturefile = "gfx/leaders/MAN/portrait_MAN_Huang_DaWei.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Qi_XieYuan"
+		texturefile = "gfx/leaders/MAN/portrait_MAN_Qi_XieYuan.dds"
+	}
 }

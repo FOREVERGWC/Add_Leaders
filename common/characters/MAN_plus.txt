@@ -214,4 +214,447 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	MAN_Ding_Mo = {
+		name = MAN_Ding_Mo
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Ding_Mo_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Ding_Mo
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				CHL_minister_of_transport
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Ren_YuanDao = {
+		name = MAN_Ren_YuanDao
+		portraits = {
+			army = {
+				large = GFX_portrait_Ren_YuanDao
+				small = GFX_portrait_Ren_YuanDao_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAN_Ren_YuanDao
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_logistics_1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Fu_XiaoAn = {
+		name = MAN_Fu_XiaoAn
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Fu_XiaoAn_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Fu_XiaoAn
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				banking_mogul
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Liu_Pei = {
+		name = MAN_Liu_Pei
+		portraits = {
+			army = {
+				large = GFX_portrait_Liu_Pei
+				small = GFX_portrait_Liu_Pei_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAN_Liu_Pei
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_chief_drill_1
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Cui_PeiDe = {
+		name = MAN_Cui_PeiDe
+		portraits = {
+			army = {
+				large = GFX_portrait_Cui_PeiDe
+				small = GFX_portrait_Cui_PeiDe_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAN_Cui_PeiDe
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_chief_reform_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Pang_BingXun = {
+		name = MAN_Pang_BingXun
+		portraits = {
+			army = {
+				large = GFX_portrait_Pang_BingXun
+				small = GFX_portrait_Pang_BingXun_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAN_Pang_BingXun
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_regrouping_1
+			}
+			cost = 50
+			ai_will_do = {
+				base = 1
+			}
+		}
+	}
+	MAN_Li_ShiQun = {
+		name = MAN_Li_ShiQun
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Li_ShiQun_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Li_ShiQun
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				PER_head_of_military_police
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Yang_KuiYi = {
+		name = MAN_Yang_KuiYi
+		portraits = {
+			army = {
+				large = GFX_portrait_Yang_KuiYi
+				small = GFX_portrait_Yang_KuiYi_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				bearer_of_artillery
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAN_Yang_KuiYi
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_artillery_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Lin_BaiSheng = {
+		name = MAN_Lin_BaiSheng
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Lin_BaiSheng_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Lin_BaiSheng
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				GER_reich_minister_of_propaganda
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Mei_SiPing = {
+		name = MAN_Mei_SiPing
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Mei_SiPing_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Mei_SiPing
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				lieutenant_of_industry
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Shen_ZhenGang = {
+		name = MAN_Shen_ZhenGang
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Shen_ZhenGang_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Shen_ZhenGang
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				NOR_ruthless_police_captain
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Luo_JunQiang = {
+		name = MAN_Luo_JunQiang
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Luo_JunQiang_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Luo_JunQiang
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				CHI_judicial_yuan_president
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Chen_Qun = {
+		name = MAN_Chen_Qun
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Chen_Qun_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_Chen_Qun
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				IRQ_minister_of_the_interior
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Bao_WenYue = {
+		name = MAN_Bao_WenYue
+		portraits = {
+			army = {
+				large = GFX_portrait_Bao_WenYue
+				small = GFX_portrait_Bao_WenYue_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAN_Bao_WenYue
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Huang_DaWei = {
+		name = MAN_Huang_DaWei
+		portraits = {
+			army = {
+				large = GFX_portrait_Huang_DaWei
+				small = GFX_portrait_Huang_DaWei_small
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAN_Huang_DaWei
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	MAN_Qi_XieYuan = {
+		name = MAN_Qi_XieYuan
+		portraits = {
+			army = {
+				large = GFX_portrait_Qi_XieYuan
+				small = GFX_portrait_Qi_XieYuan_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAN_Qi_XieYuan
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_infantry_1
+			}
+			cost = 50
+			ai_will_do = {
+				base = 1
+			}
+		}
+	}
 }

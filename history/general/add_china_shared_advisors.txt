@@ -713,6 +713,22 @@
 			recruit_character = MAN_Zhao_XinBo
 			recruit_character = MAN_Cheng_ZhiYuan
 			recruit_character = MAN_Wang_ZhiYou
+			recruit_character = MAN_Ding_Mo
+			recruit_character = MAN_Ren_YuanDao
+			recruit_character = MAN_Fu_XiaoAn
+			recruit_character = MAN_Liu_Pei
+			recruit_character = MAN_Cui_PeiDe
+			recruit_character = MAN_Pang_BingXun
+			recruit_character = MAN_Li_ShiQun
+			recruit_character = MAN_Yang_KuiYi
+			recruit_character = MAN_Lin_BaiSheng
+			recruit_character = MAN_Mei_SiPing
+			recruit_character = MAN_Shen_ZhenGang
+			recruit_character = MAN_Luo_JunQiang
+			recruit_character = MAN_Chen_Qun
+			recruit_character = MAN_Bao_WenYue
+			recruit_character = MAN_Huang_DaWei
+			recruit_character = MAN_Qi_XieYuan
 		}
 		# 适配原版
 		else = {
@@ -726,6 +742,22 @@
 			recruit_character = MAN_Zhao_XinBo
 			recruit_character = MAN_Cheng_ZhiYuan
 			recruit_character = MAN_Wang_ZhiYou
+			recruit_character = MAN_Ding_Mo
+			recruit_character = MAN_Ren_YuanDao
+			recruit_character = MAN_Fu_XiaoAn
+			recruit_character = MAN_Liu_Pei
+			recruit_character = MAN_Cui_PeiDe
+			recruit_character = MAN_Pang_BingXun
+			recruit_character = MAN_Li_ShiQun
+			recruit_character = MAN_Yang_KuiYi
+			recruit_character = MAN_Lin_BaiSheng
+			recruit_character = MAN_Mei_SiPing
+			recruit_character = MAN_Shen_ZhenGang
+			recruit_character = MAN_Luo_JunQiang
+			recruit_character = MAN_Chen_Qun
+			recruit_character = MAN_Bao_WenYue
+			recruit_character = MAN_Huang_DaWei
+			recruit_character = MAN_Qi_XieYuan
 		}
 	}
 }

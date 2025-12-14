@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- # CHI 
+ # CHI
  CHI_Deng_LongGuang:0 "邓龙光"
  CHI_Zhang_KeXia:0 "张克侠"
  CHI_Cao_FuLin:0 "曹福林"
@@ -36,7 +36,6 @@
  CHI_Song_XiLian:0 "宋希濂"
  CHI_Guan_LinZheng:0 "关麟征"
  CHI_Sun_WeiRu:0 "孙蔚如"
- CHI_Zhu_ShaoLiang:0 "朱绍良"
  CHI_Li_MoAn:0 "李默庵"
  CHI_Huang_Jie:0 "黄杰"
  CHI_He_ChengJun:0 "何成濬"
@@ -136,10 +135,27 @@
  MAN_Zhao_XinBo:0 "赵欣伯"
  MAN_Cheng_ZhiYuan:0 "程志远"
  MAN_Wang_ZhiYou:0 "王之佑"
+ MAN_Ding_Mo:0 "丁默"
+ MAN_Ren_YuanDao:0 "任援道"
+ MAN_Fu_XiaoAn:0 "傅筱庵"
+ MAN_Liu_Pei:0 "刘培"
+ MAN_Cui_PeiDe:0 "崔培德"
+ MAN_Pang_BingXun:0 "庞炳勋"
+ MAN_Li_ShiQun:0 "李士群"
+ MAN_Yang_KuiYi:0 "杨揆一"
+ MAN_Lin_BaiSheng:0 "林柏生"
+ MAN_Mei_SiPing:0 "梅思平"
+ MAN_Shen_ZhenGang:0 "申振纲"
+ MAN_Luo_JunQiang:0 "罗君强"
+ MAN_Chen_Qun:0 "陈群"
+ MAN_Bao_WenYue:0 "鲍文樾"
+ MAN_Huang_DaWei:0 "黄大伟"
+ MAN_Qi_XieYuan:0 "齐燮元"
  # SOV
  SOV_vladimir_ilyich_ulyanov_lenin:0 "弗拉基米尔·伊里奇·乌里扬诺夫·列宁"
  SOV_yuri:0 "尤里"
  SOV_nicholas_ii_aleksandrovich:0 "尼古拉二世·亚历山德罗维奇"
+ SOV_andrei_alexandrovich_zhdanov:0 "安德烈·亚历山德罗维奇·日丹诺夫"
  # GER
  GER_friedrich_w_v_a_v_hohenzollern:0 "弗里德里希·威廉·维克托·阿尔贝特·冯·霍亨索伦"
 

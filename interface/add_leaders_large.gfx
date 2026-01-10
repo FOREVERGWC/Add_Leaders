@@ -1,4 +1,5 @@
 spriteTypes = {
+	# CHI
 	spriteType = {
 		name = "GFX_portrait_Sun_WeiRu"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Sun_WeiRu.dds"
@@ -92,6 +93,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/portrait_CHI_Xu_TingYao.dds"
 	}
 	# PRC
+	spriteType = {
+		name = "GFX_portrait_Xu_XiangQian"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_Xu_XiangQian.dds"
+	}
 	# 授勋
 	spriteType = {
 		name = "GFX_portrait_Liu_BoCheng_award"

@@ -319,6 +319,42 @@
 					}
 				}
 			}
+			retire_character = PRC_xu_xiangqian
+			generate_character = {
+				token_base = PRC_xu_xiangqian
+				name = PRC_xu_xiangqian
+				portraits = {
+					army = {
+						large = GFX_portrait_Xu_XiangQian
+						small = GFX_portrait_PRC_xu_xiangqin_small
+					}
+				}
+				corps_commander = {
+					traits = {
+					}
+					skill = 2
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id = -1
+				}
+				advisor = {
+					slot = high_command
+					idea_token = PRC_xu_xiangqian
+					ledger = army
+					allowed = {
+						original_tag = PRC
+					}
+					traits = {
+						PRC_base_builder
+					}
+					cost = 100
+					ai_will_do = {
+						base = 1
+					}
+				}
+			}
 			recruit_character = PRC_Xu_HaiDong_plus
 			recruit_character = PRC_Huang_KeCheng_plus
 			recruit_character = PRC_Tan_Zheng_plus

@@ -1,4 +1,5 @@
 spriteTypes = {
+	# CHI
 	spriteType = {
 		name = "GFX_portrait_Sun_WeiRu_small"
 		texturefile = "gfx/interface/ideas/characters/CHI/idea_generic_Sun_WeiRu.dds"
